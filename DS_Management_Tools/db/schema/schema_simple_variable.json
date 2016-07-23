@@ -1,0 +1,39 @@
+{ 
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "variable schema",
+    "type": "array",
+    "items": 
+    {
+        "title": "variable item",
+        "type": "object",
+        "properties":
+        {
+            "name": 
+            {
+                "type": "string"
+            }, 
+            "link": 
+            {
+                "type": "string", 
+                "pattern": "^[A-Za-z0-9\\_][A-Za-z0-9\\.]*[A-Za-z0-9\\_]+$"
+            }, 
+            "value": 
+            {
+                "type": "array"
+            }, 
+            "enumerable": 
+            {
+                "type": "string",
+                "enum": ["True"]
+            },
+            "build":
+            {
+                "type": "string", 
+                "enum": ["True", "False"]
+            }
+        },
+        "additionalProperties": false,
+        "required": ["name", "link", "value", "enumerable"]
+    },
+    "uniqueItems": true
+}

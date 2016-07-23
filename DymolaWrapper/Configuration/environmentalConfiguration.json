@@ -1,0 +1,13 @@
+{
+    "dymolaPath" : "C:\\softwares\\Dymola2015\\bin64\\Dymola.exe",
+    "dymolaInterfacePath" : "C:\\softwares\\Dymola2015\\Modelica\\Library\\python_interface\\dymola.egg",
+    "workingDirectory" : "C:\\workspaces\\testingWorkingDirectory\\",
+    "testsJsonFilePath" : "..\\Configuration\\testPlan.json",
+    "librariesLocation" :
+    {
+        "EDRISLibComponents" : "..\\..\\EdrisLibComponents\\branches\\subfolder\\EdrisLibComponents", 
+        "EDRISLibData" : "..\\..\\EdrisLibData", 
+        "EDRISLibSystems" : "..\\..\\EdrisLibSystems\\trunk\\EdrisLibSystems",
+        "SimDevTools" : "..\\..\\SimDevTools"
+    }
+}

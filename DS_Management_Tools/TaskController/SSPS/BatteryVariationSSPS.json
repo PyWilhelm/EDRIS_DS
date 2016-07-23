@@ -1,0 +1,119 @@
+{
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTG",
+        "reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB Steadystate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"RCI_P_cont",
+                    "comment": "initial battery RCI (Relative Charging Indicator)",
+                    "value": ["0.1", "0.6"]
+                },
+
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"T_P_cont",
+                    "comment": "battery cell core temperature",
+                    "value": ["-10", "40"]
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SSPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "power":
+                        {
+                            "maxValue" : "-1",
+                            "minValue" : "-1500000",
+                            "errorRange" : "10"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "3600000",
+                            "lprec" : "0",
+                            "lx" : "0",
+                            "lxd" : "0",
+                            "lu" : "0",
+                            "ly" : "1",
+                            "lz" : "0",
+                            "lw" : "0",
+                            "la" : "0",
+                            "lperf" : "0",
+                            "levent" : "0",
+                            "lshare" : "0"
+                        },
+                        "parameters":
+                        {
+                            "RCIend_terminate": "0.05",
+                            "setPowerTolerance": "10",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0"
+                        },
+                        "results":
+                        [
+                            {   
+                                "signalName": "Time",
+                                "unit": "s", 
+                                "quantity": "Time", 
+                                "comment": "pulse time for constant power output",
+                                "sdfName":"t_P_cont"
+                            },
+                            {   
+                                "signalName": "_signalBus_Main.batteryBus.general.current",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "battery current",
+                                "sdfName":"i_DC_P_cont"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.voltage", 
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery voltage", 
+                                "sdfName":"v_P_cont"
+                            },
+                            {"signalName": "summary.batteryPower", 
+                                "comment": "battery state of charge at simulation end", 
+                                "sdfName":"p_cont",
+                                "quantity": "Power",
+                                "unit": "W"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.SOC",
+                                "comment": "battery state of charge at simulation end", 
+                                "sdfName":"SOC_end_cont"
+                            },
+                            {"signalName": "summary.deratingStatus",
+                                "comment": "derating status indicator (0 : No derating, 1 : Current derating (HVS), 2 : Voltage derating (HVS), 3 : SOC (energy) derating (HVS), 4 : max torque derating (EM))", 
+                                "sdfName":"derating_cont"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

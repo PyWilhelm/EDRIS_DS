@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/js/spin.js" ></script>
+     <script src="/static/js/jquery/jquery.js" type="text/javascript"></script>
+    <script src="/static/js/jquery/jquery-ui.custom.js" type="text/javascript"></script>
+    <script src="/static/js/jquery/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.dynatree.js" type="text/javascript"></script>
+    <script src="/static/js/layer/layer.min.js"></script>
+    <link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+    var xmlhttp;
+    var timer;
+    var stop = false;  
+        var index;
+        
+        function svn_update()
+        {
+            document.getElementById("update_status").innerHTML = "updating... please wait...";
+            document.getElementById("submit").disabled = true;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "update-svn", true)
+            xmlhttp.onreadystatechange = updatepage; 
+            xmlhttp.send();
+        }
+        
+        function updatepage()
+        {
+            if (xmlhttp.readyState == 4)
+            {
+                var response = xmlhttp.responseText;
+                old = document.getElementById("svn_revision").innerHTML
+                if (response.search(old) >=0 )
+                    document.getElementById("svn_revision").innerHTML = response + "&nbsp;&nbsp; (already latest revision)"
+                else
+                    document.getElementById("svn_revision").innerHTML = response + " &nbsp;&nbsp;<s>" + old + "</s>"
+                document.getElementById("update_status").innerHTML = "finished updating.";
+                document.getElementById("submit").disabled = false;
+            }
+        }
+
+        
+        function check()
+        {
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "get-result/"+document.getElementById("tid").value, true)
+            xmlhttp.onreadystatechange = insertResult; 
+            xmlhttp.send();
+        }
+        
+        function insertResult()
+        {
+            if (xmlhttp.readyState == 4)
+            {
+                var response = xmlhttp.responseText;
+                if (response.indexOf("total simulation time") >= 0)
+                {
+                    document.getElementById('loading').innerHTML = '';
+                    document.getElementById("result_div").innerHTML = response;
+                    document.getElementById("submit").disabled = false;
+                    document.getElementById("submit").onclick = function(){document.location.reload(true)};
+                    document.getElementById("submit").value = 'Reload';
+                    stop = true;
+                    
+                }
+                else if (response.indexOf("Progress Information") >= 0)
+                {
+                    document.getElementById("result_div").innerHTML = response;
+                }
+                else if (response.indexOf("Initialize") >= 0)
+                {
+                    document.getElementById("result_div").innerHTML = response;
+                }
+                else
+                {
+                    document.getElementById("result_div").innerHTML = document.getElementById("result_div").innerHTML + 
+                    response + '<p>Internal ERROR! Resubmit the task or report this error';
+                    stop = true;
+                }
+                
+                if (stop==false){
+                    timer = setTimeout(check, 4000);
+                    }
+            }
+
+        }
+        function on_submit()
+        {
+            var checkboxes = document.getElementsByName('checkbox');
+            var checked_list = new Array(checkboxes.length);
+            var checked = 0;
+            for (var i = 0; i < checkboxes.length; i++)
+            {
+                checked_list[i] = checkboxes[i].checked;
+                if (checkboxes[i].checked == true)    checked++;
+            }
+            if (checked != 2)
+            {
+            	document.getElementById('lblerror').innerHTML = "Two parameters must be set as variation";
+                document.getElementById('lblerror').style.visibility = "visible";
+                return;
+            }
+            else 
+            {
+            	document.getElementById('lblerror').style.visibility = "hidden";
+            }
+            
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("POST", "System-SPS-Plot", true);
+            var data = new FormData();
+            data.append("modelname", document.getElementById("modelname").value);
+            data.append("Battery", document.getElementById("batterycomponentname").value);
+            data.append("ElectricMachine", document.getElementById("emachinecomponentname").value);
+            data.append("setRci", document.getElementById("setRci").value);
+            data.append("tid", document.getElementById("tid").value);
+            data.append("setTemp", document.getElementById("setTemp").value);
+            data.append("StopTime", document.getElementById("StopTime").value);
+            data.append("setSpeed", document.getElementById("setSpeed").value);
+            data.append("SOH", document.getElementById("SOH").value);
+            data.append("NcAging", document.getElementById("NcAging").value);
+            data.append("RiAging", document.getElementById("RiAging").value);
+            xmlhttp.send(data);
+            xmlhttp.onreadystatechange = on_validated; 
+        }
+        
+        function on_validated()
+        {
+            if (xmlhttp.readyState == 4)
+            {
+                var response = xmlhttp.responseText;
+                if (response.length == 0)
+                {
+                    var opts = {
+                            lines: 13, // The number of lines to draw
+                            length: 20, // The length of each line
+                            width: 10, // The line thickness
+                            radius: 30, // The radius of the inner circle
+                            corners: 1, // Corner roundness (0..1)
+                            rotate: 0, // The rotation offset
+                            direction: 1, // 1: clockwise, -1: counterclockwise
+                            color: '#000', // #rgb or #rrggbb or array of colors
+                            speed: 1, // Rounds per second
+                            trail: 60, // Afterglow percentage
+                            shadow: false, // Whether to render a shadow
+                            hwaccel: false, // Whether to use hardware acceleration
+                            className: 'spinner', // The CSS class to assign to the spinner
+                            zIndex: 2e9, // The z-index (defaults to 2000000000)
+                            top: '50%', // Top position relative to parent
+                            left: '50%' // Left position relative to parent
+                          };
+
+                  
+                    document.getElementById("submit").disabled = true;
+                    var target = document.getElementById('loading');
+                    var spinner = new Spinner(opts).spin(target);
+                    timer=setTimeout(check, 4000);
+                }
+                else
+                {
+                    data = JSON.parse(response);
+                    if (data.validate != null)
+                    {
+                    	document.getElementById('lblerror').innerHTML = data.validate.toString();
+                        document.getElementById('lblerror').style.visibility = "visible";
+                    }
+                }
+            }
+        }
+        function set_comp_name(name)
+        {
+            var input_list = document.getElementsByName("componentname");
+            input_list[index-1].value = name
+        }
+        
+        
+    </script>
+
+</head>
+<body>
+<div id="header-wrapper">
+<div class="container" id="header">
+<div id="logo">
+<h1>EdriS MANAGEMENT</h1>
+</div>
+
+<div id="menu">
+<ul>
+    <li class="current_page_item"><a accesskey="1" href="/" title="" style="color: White">Homepage</a></li>
+    <li class="current_page_item"><a accesskey="1" href="#" title="" >Setting Tasks</a></li>
+
+    <li>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="header-featured">
+<div id="banner-wrapper">&nbsp;</div>
+</div>
+</div>
+
+<div id="wrapper">
+<div class="container" id="page">
+<div id="content">
+<div class="title">
+<h2>SPS System Plotting</h2>
+</div>
+
+<p>&nbsp;</p>
+
+<ul class="container" id="banner">
+    <li>Current SVN Revision Number is:  
+        <label style="font-size: 18px; font-weight:bold; color:red" id="svn_revision">{{revision_number}}</label>
+        &nbsp;&nbsp;&nbsp;
+        <label style="font-size: 18px; font-weight:bold; color:red" id="update_status"></label>
+    </li>
+
+    <li><input type="button" name="svn_update_btn" value="update SVN" onclick="svn_update()" style="font-size: 18px; font-weight: bold"/></li>
+    <li>&nbsp;</li>
+    <li>
+        
+    </li>
+    <li>&nbsp;</li>
+
+    <li>Model Name <label style="font-size: 18px; font-weight:bold; color:red">(type the complete name as shown in dymola)</label>
+    <div>
+    <input name="modelname" id="modelname" size="44" style="width: 652px; height: 29px" type="text" value="EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base"/>
+    </div></li>
+    <li>&nbsp;</li>
+
+    <li>Battery Parameter Set Folder in EDRIS Database
+    <div><input name="componentname"  id="batterycomponentname" size="44" style="width: 652px; height: 29px" disabled type="text"/>
+    </div></li>
+    <li>
+        <button id="openBatteryTab" name="openBatteryTab">Set Battery Component</button>
+        <script type="text/javascript">
+        $("#openBatteryTab").click(function(){
+            $.layer({
+                type: 2,
+                shade: [0],
+                fix: false,
+                maxmin: true,
+                title: [
+                    'Set Component', 
+                    'background:#2B2E37; height:40px; color:#fff; border:none;' 
+                ], 
+                border:[0],
+                area: ['60%', '60%'],
+                iframe: {src: 'get_fs_list/Battery'},
+                close: function(index){
+                    //document.getElementById("componentname").value = layer.getChildFrame('#componentname', index).val();
+                }
+            });
+            index = 1;
+     });
+        </script>
+    </li>
+    <li>Electric Machine Parameter Set Folder in EDRIS Database 
+    <div><input name="componentname"  id="emachinecomponentname" size="44" style="width: 652px; height: 29px" disabled type="text"/>
+    </div></li>
+    <li>
+        <button id="openEMTab" name="openEMTab">Set EMachine Component</button>
+        <script type="text/javascript">
+        $("#openEMTab").click(function(){
+            $.layer({
+                type: 2,
+                shade: [0],
+                fix: false,
+                maxmin: true,
+                title: [
+                    'Set Component', 
+                    'background:#2B2E37; height:40px; color:#fff; border:none;' 
+                ], 
+                border:[0],
+                area: ['60%', '60%'],
+                iframe: {src: 'get_fs_list/ElectricMachine'},
+                close: function(index){
+                    //document.getElementById("componentname").value = layer.getChildFrame('#componentname', index).val();
+                }
+            });
+            index = 2;
+     });
+        </script>
+    </li>
+
+    
+    <li id="check_layout">  
+
+
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" name="checkbox" id="checkSetRci" />
+        setRci 
+            </td>
+            <td>
+                    <input name="setRci" id="setRci" size="44" style="width: 100px; height: 29px" type="text" value="0.1:0.1:1"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="checkbox" id="checkSetTemp" />
+        setTemp
+            </td>
+            <td>
+              <input name="setTemp" id="setTemp" size="44" style="width: 100px; height: 29px" type="text" value="0:10:30"/>
+            </td>
+        </tr>
+
+                <tr>
+            <td>
+                <input type="checkbox" name="checkbox" id="checkSetSpeed" />
+        setSpeed 
+            </td>
+            <td>
+            
+        <input name="setSpeed" id="setSpeed" size="44" style="width: 100px; height: 29px" type="text" value="3000"/>
+            </td>
+        </tr>
+                <tr>
+            <td>
+                <input type="checkbox" name="checkbox" id="checkSOH" />
+        SOH 
+            </td>
+            <td>
+        <input name="SOH" id="SOH" size="44" style="width: 100px; height: 29px" type="text" value="0"/>
+            </td>
+        </tr>
+                <tr>
+            <td>
+                <input type="checkbox" name="checkbox" id="checkStopTime" />
+        StopTime 
+            </td>
+            <td>
+            
+        <input name="StopTime" id="StopTime" size="44" style="width: 100px; height: 29px" type="text" value="200"/>
+            </td>
+        </tr>
+    </table>
+    <label style="color:red; font-weight: bold;" id="lblerror" />
+    </li>
+    
+        <li>NcAging value:
+    <div>
+    <input name="NcAging" id="NcAging" size="44" style="width: 652px; height: 29px" type="text" value="0.7" />
+    </div></li><li>&nbsp;</li>
+        <li>RiAging value:
+    <div>
+    <input name="RiAging" id="RiAging" size="44" style="width: 652px; height: 29px" type="text" value="1.3" />
+    </div></li><li>&nbsp;</li>
+    
+    <li><input type="button" value="Submit" id="submit" style="font-size: 18px; font-weight: bold" onclick="on_submit()" />
+    <div id="loading"></div>
+    <input type="hidden" name="tid" id="tid" value="{{tid}}"/>
+    </li>
+    <li><div id="result_div">
+        
+    </div></li>
+
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

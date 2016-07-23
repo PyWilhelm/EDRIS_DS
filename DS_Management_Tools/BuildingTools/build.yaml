@@ -1,0 +1,6 @@
+librariesRequired:
+  EdrisLibComponents: EDRIS_Library\EdrisLibComponents\devel-main\EdrisLibComponents
+  EdrisLibData: EDRIS_Library\EdrisLibData\trunk\EdrisLibData
+  EdrisLibSystems: EDRIS_Library\EdrisLibSystems\trunk\EdrisLibSystems
+  EdrisLibSysTemp: EDRIS_Library\EdrisLibSystems\trunk\EdrisLibSysTemp
+model: EdrisLibSystems.Systems.Bases.BasesSPS.TB_separated_SPS_base

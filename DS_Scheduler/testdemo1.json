@@ -1,0 +1,103 @@
+{
+   "tests":
+    [
+
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "1"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "2"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "3"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "5"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "23"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "13"
+			}
+		},
+
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "111"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "211"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "311"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "511"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "2113"
+			}
+		},
+		{
+			"meta_function": "funclib/calc.py",
+			"dependency" : ["funclib/BaseTask.py","testinput/input.txt"],
+			"parameters" :
+			{
+				"method" : "1113"
+			}
+		}
+    ]
+}

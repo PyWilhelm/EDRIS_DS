@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title></title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="" name="keywords" />
+	<meta content="" name="description" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+	<link href="../static/default.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../static/js/spin.js" ></script><script type="text/javascript">
+	
+    </script>
+	
+	<script type="text/javascript">
+		var xmlhttp;
+		function svn_update()
+		{
+			document.getElementById("update_status").innerHTML = "updating... please wait...";
+			document.getElementById("submit").disabled = true;
+			
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "update-svn", true)
+			xmlhttp.onreadystatechange = updatepage; 
+			
+			xmlhttp.send();
+			
+		}
+		
+		function updatepage()
+		{
+			if (xmlhttp.readyState == 4)
+			{
+				var response = xmlhttp.responseText;
+				old = document.getElementById("svn_revision").innerHTML
+				if (response.search(old) >=0 )
+					document.getElementById("svn_revision").innerHTML = response + "&nbsp;&nbsp; (already latest revision)"
+				else
+					document.getElementById("svn_revision").innerHTML = response + " &nbsp;&nbsp;<s>" + old + "</s>"
+				document.getElementById("update_status").innerHTML = "finished updating.";
+				document.getElementById("submit").disabled = false;
+			}
+		}
+		
+		function on_change(input)
+		{
+			
+			index = input.value.search("EDRIS_")
+			if (index >= 0)
+			{
+				xmlhttp = new XMLHttpRequest();
+				dir = input.value.substring(index);
+				xmlhttp.open("GET", "get-filenames?folder=" + dir , true);
+				xmlhttp.onreadystatechange = update_filenames; 
+				xmlhttp.send();
+			}
+				
+		}
+		
+		function update_filenames()
+		{
+			if (xmlhttp.readyState == 4)
+			{
+				var response = xmlhttp.responseText;
+				document.getElementById("componentfiles").innerHTML = "<li style=\"font-size: 16px;\"> File List: </li>" + response;
+			}
+		}
+		
+		function check()
+		{
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "get-result/"+document.getElementById("tid").value, true)
+			xmlhttp.onreadystatechange = insertResult; 
+			xmlhttp.send();
+		}
+		
+		function insertResult()
+		{
+			if (xmlhttp.readyState == 4)
+			{
+				var response = xmlhttp.responseText;
+				if (response.indexOf("TABLE") >= 0)
+				{
+					document.getElementById("result_div").innerHTML = response;
+					clearInterval(timer)
+				}
+			}
+		}
+		
+		function on_submit()
+		{
+			document.getElementById("submit").disabled = true;
+			
+			var opts = {
+					  lines: 13, // The number of lines to draw
+					  length: 20, // The length of each line
+					  width: 10, // The line thickness
+					  radius: 30, // The radius of the inner circle
+					  corners: 1, // Corner roundness (0..1)
+					  rotate: 0, // The rotation offset
+					  direction: 1, // 1: clockwise, -1: counterclockwise
+					  color: '#000', // #rgb or #rrggbb or array of colors
+					  speed: 1, // Rounds per second
+					  trail: 60, // Afterglow percentage
+					  shadow: false, // Whether to render a shadow
+					  hwaccel: false, // Whether to use hardware acceleration
+					  className: 'spinner', // The CSS class to assign to the spinner
+					  zIndex: 2e9, // The z-index (defaults to 2000000000)
+					  top: '10%', // Top position relative to parent
+					  left: '10%' // Left position relative to parent
+					};
+			//var target = document.getElementById('loading');
+			//var spinner = new Spinner(opts).spin(target);
+			
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("POST", "set-BBVAP", true);
+			var data = new FormData();
+			data.append("modelname", document.getElementById("model").value)
+			data.append("componentname", document.getElementById("componentname").value)
+			data.append("tid", document.getElementById("tid").value)
+			data.append("NcAging", document.getElementById("NcAging").value)
+			data.append("RiAging", document.getElementById("RiAging").value)
+			//xmlhttp.onreadystatechange = insertResult; 
+			xmlhttp.send(data);
+
+			
+			var timer;
+		}
+		
+
+		
+	</script>
+
+</head>
+<body onload="timer=setInterval(function(){check()}, 5000)">
+	<table>
+		<tr>
+			<td style="width=20px;">
+				<lable id="loading">
+    	
+    		</lable>
+			</td>
+						<td>
+
+			</td>
+						<td>
+
+			</td>
+						<td>
+
+			</td>
+		</tr>
+	</table>
+
+    
+    
+</body>
+
+<script type="text/javascript">
+var opts = {
+		  lines: 13, // The number of lines to draw
+		  length: 20, // The length of each line
+		  width: 10, // The line thickness
+		  radius: 30, // The radius of the inner circle
+		  corners: 1, // Corner roundness (0..1)
+		  rotate: 0, // The rotation offset
+		  direction: 1, // 1: clockwise, -1: counterclockwise
+		  color: '#000', // #rgb or #rrggbb or array of colors
+		  speed: 1, // Rounds per second
+		  trail: 60, // Afterglow percentage
+		  shadow: false, // Whether to render a shadow
+		  hwaccel: false, // Whether to use hardware acceleration
+		  className: 'spinner', // The CSS class to assign to the spinner
+		  zIndex: 2e9, // The z-index (defaults to 2000000000)
+		  top: '10px', // Top position relative to parent
+		  left: '1px' // Left position relative to parent
+		};
+var target = document.getElementById('loading');
+var spinner = new Spinner(opts).spin(target);
+</script>
+</html>

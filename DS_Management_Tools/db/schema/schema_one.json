@@ -1,0 +1,239 @@
+{ 
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "main schema",
+    "type": "object",
+    "properties":
+    {
+        "building":
+        {
+            "type": "object",
+            "properties":
+            {
+                "definition": 
+                {
+                    "type": "object",
+                    "patternProperties":
+                    {
+                        "^[A-Za-z0-9\\_]*$":
+                        {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "required": ["definition"]
+        },
+        "classes":
+        {
+            "type": "object",
+            "patternProperties":
+            {
+                "^[A-Za-z0-9\\_]*$":
+                {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9\\_][A-Za-z0-9\\.\\_]*[A-Za-z0-9\\_]+$"
+                }
+            },
+            "additionalProperties": false
+        },
+        "taskGenerator":
+        {
+            "type": "object",
+            "properties":
+            {
+                "taskGenerateName": {"type": "string"},
+                "arguments":
+                {
+                    "type": "object",
+                    "properties":
+                    {
+                        "constant": 
+                        {
+                            "type": "object",
+                            "properties":
+                            {
+                                "buildingInfo":
+                                {
+                                    "type": "object",
+                                    "patternProperties":
+                                    {
+                                        "^[A-Za-z0-9\\_]*$":
+                                        {
+                                            "type": "object",
+                                            "properties": 
+                                            {
+                                                "type": 
+                                                {
+                                                    "type": "string"
+                                                },
+                                                "method": 
+                                                {
+                                                    "type": "string"
+                                                },
+                                                "child": 
+                                                {
+                                                    "type": "object",
+                                                    "$ref": "#/properties/taskGenerator/properties/arguments/properties/constant/properties/buildingInfo"
+                                                },
+                                                "value": 
+                                                {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "additionalProperties": false
+                                        }
+                                    }
+                                },
+                                "meta_function": 
+                                {
+                                    "type": "string"
+                                },
+                                "dependency": 
+                                {
+                                    "type": "array", 
+                                    "items": 
+                                    {
+                                        "type": "string"
+                                    }
+                                }, 
+                                "parameterOfFunction": 
+                                {
+                                    "type": "object",
+                                    "properties": 
+                                    {
+                                        "functionArguments":
+                                        {
+                                            "type": "object"
+                                        },
+                                        "testArguments":
+                                        {
+                                            "type": "object",
+                                            "properties": 
+                                            {
+                                                "modelName":
+                                                {
+                                                    "type": "string",
+                                                    "pattern": "^[A-Za-z0-9\\_][A-Za-z0-9\\.\\_]*[A-Za-z0-9\\_]+$"
+                                                },
+                                                "simulationSettings":
+                                                {
+                                                    "type": "object",
+                                                    "patternProperties":
+                                                    {
+                                                        "^[A-Za-z0-9\\_\\.]*$":
+                                                        {
+                                                            "type": "string",
+                                                            "pattern": "^[-+]?[0-9]*\\.?[0-9]+$"
+                                                        }
+                                                    }
+                                                },
+                                                "parameters":
+                                                {
+                                                    "type": "object",
+                                                    "patternProperties":
+                                                    {
+                                                        "^[A-Za-z0-9\\_\\.]*$":
+                                                        {
+                                                            "type": "string",
+                                                            "pattern": "^[-+]?[0-9]*\\.?[0-9]+$"
+                                                        }
+                                                    }
+                                                },
+                                                "results":
+                                                {
+                                                    "type": "array",
+                                                    "items":
+                                                    {
+                                                        "type": "object",
+                                                        "properties":
+                                                        {
+                                                            "signalName": 
+                                                            {
+                                                                "type": "string"
+                                                            },
+                                                            "unit":
+                                                            {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        
+                                                        "required": ["signalName"]
+                                                    }
+                                                    
+                                                }
+                                            },
+                                            "additionalProperties": false,
+                                            "required": ["modelName", "simulationSettings" ,"parameters", "results"]
+                                       }
+                                       
+                                    }
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": ["parameterOfFunction", "dependency", "meta_function"]
+                                                    
+                        },
+                        "variable": 
+                        {
+                            "type": "array",
+                            "items": 
+                            {
+                                "title": "variable item",
+                                "type": "object",
+                                "properties":
+                                {
+                                    "name": 
+                                    {
+                                        "type": "string"
+                                    }, 
+                                    "link": 
+                                    {
+                                        "type": "string", 
+                                        "pattern": "^[A-Za-z0-9\\_][A-Za-z0-9\\.]*[A-Za-z0-9\\_]+$"
+                                    }, 
+                                    "value": 
+                                    {
+                                        "oneOf": 
+                                        [
+                                            {
+                                                "type": "string",
+                                                "pattern": "^([-+]?[0-9]*\\.?[0-9]+)(:([-+]?[0-9]*\\.?[0-9]+):([-+]?[0-9]*\\.?[0-9]+))?(\\s+([-+]?[0-9]*\\.?[0-9]+)(:([-+]?[0-9]*\\.?[0-9]+):([-+]?[0-9]*\\.?[0-9]+))?)*$"
+                                            }, 
+                                            {
+                                                "type": "array",
+                                                "items": 
+                                                {
+                                                    "oneOf":
+                                                    [
+                                                    {
+                                                        "type": "string",
+                                                        "pattern": "^[-+]?[0-9]*\\.?[0-9]+$"
+                                                    },
+                                                    {
+                                                        "type": "object"
+                                                    }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }, 
+                                    "build":
+                                    {
+                                        "type": "string", 
+                                        "enum": ["True", "False"]
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "required": ["name", "link", "value"]
+                            },
+                            "uniqueItems": true
+                        }
+                    },
+                    "required": ["constant"]
+                }
+            },
+            "required": ["taskGenerateName", "arguments"]
+        }
+    },
+    "required": ["classes", "taskGenerator"]
+}

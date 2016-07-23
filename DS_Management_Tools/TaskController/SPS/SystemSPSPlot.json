@@ -1,0 +1,81 @@
+{
+    "building":
+    {
+        "definition":
+        {
+            "Battery_01": "battery",
+            "ElectricMachine_01": "ElectricMachine",
+            "Inverter":"inverter_FlowPort"
+        }
+    },
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.FullFactorialTG_SOH.FullFactorialTG_SOH",
+        "reporter": "TaskController.SPS.ReporterSPSPlot.ReporterSPSPlot"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Separated_SPS_base Generate",
+        "arguments":
+        {
+            "variable":
+            [
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "setTorque":
+                        {
+                            "maxValue" : "1500",
+                            "minValue" : "1",
+                            "errorRange" : "2"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "15"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "setTorqueTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0",
+                            "RCIend_terminate": "0.0001"
+                        },
+                        "results":
+                        [
+                            {"signalName": "clock.y"},
+                            {"signalName": "summarySystemSPS.batteryCurrent"},
+                            {"signalName": "summarySystemSPS.batteryVoltage"},
+                            {"signalName": "summarySystemSPS.ACrmsCurrent"},
+                            {"signalName": "summarySystemSPS.SOC"},
+                            {"signalName": "summarySystemSPS.machineTorque"},
+                            {"signalName": "summarySystemSPS.additionalOutput"},
+                            {"signalName": "summarySystemSPS.mechanicalPower"}          
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

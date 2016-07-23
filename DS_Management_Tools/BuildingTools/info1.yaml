@@ -1,0 +1,64 @@
+- build: true
+  enumerable: true
+  link: buildingInfo.Inverter.child
+  name: LossLoadSelection
+  value:
+  - method: redeclare
+    type: record
+    value: null
+- build: true
+  enumerable: true
+  link: buildingInfo.Inverter.child
+  name: LossModelSelection
+  value:
+  - method: redeclare
+    type: model
+    value: EdrisLibComponents.Components.Inverters.LossModels.L002_PowerLossArray_A
+- build: true
+  enumerable: true
+  link: buildingInfo.electricMachine.child
+  name: LossLoadSelection
+  value:
+  - method: redeclare
+    type: record
+    value: EdrisLibData.ElectricMachine.Loss.L002_EMP156p162_20130313_B2_F45_LEB452_A
+- build: true
+  enumerable: true
+  link: buildingInfo.electricMachine.child
+  name: GeneralModelSelection
+  value:
+  - method: redeclare
+    type: model
+    value: EdrisLibComponents.Components.ElectricMachines.GeneralModels.G002_EMLimitedByStress_B
+- build: true
+  enumerable: true
+  link: buildingInfo.electricMachine.child
+  name: GeneralLoadSelection
+  value:
+  - method: redeclare
+    type: record
+    value: EdrisLibData.ElectricMachine.General.G002_EMP156p162_20130313_B2_F45_F48_LEB452
+- build: true
+  enumerable: true
+  link: buildingInfo.electricMachine.child
+  name: LossModelSelection
+  value:
+  - method: redeclare
+    type: model
+    value: EdrisLibComponents.Components.ElectricMachines.LossModels.L002_PowerLossArray_AB
+- build: true
+  enumerable: true
+  link: buildingInfo.electricMachine.child
+  name: ControllerLoadSelection
+  value:
+  - method: redeclare
+    type: record
+    value: EdrisLibData.ElectricMachine.Controller.C002_EMP156p162_20130422_B2_LEB452_A_Job2_v1
+- build: true
+  enumerable: true
+  link: buildingInfo.electricMachine.child
+  name: ControllerModelSelection
+  value:
+  - method: redeclare
+    type: model
+    value: EdrisLibComponents.Components.ElectricMachines.ControllerModels.C002_TorqueLimitedByStress_AB

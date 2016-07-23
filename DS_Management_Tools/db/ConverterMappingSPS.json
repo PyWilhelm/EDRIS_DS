@@ -1,0 +1,36 @@
+{
+	"allResults":
+	{
+		"simulationParameterSet":
+		{
+			"modelName" : "modelName",
+			"RPM": "parameters.setSpeed",
+			"RCI": "parameters.setRci",
+			"EESTemperature" : "parameters.setTemp",
+			"SOH": "SOH",
+			"motorGeneratorMode": "1", 
+			"maxTorque": "functionArguments.setTorque.maxValue", 
+			"numberOfSerialCells": "parameters.setNumberOfSerialCells", 
+			"numberOfParallelCells": "parameters.setNumberOfParallelCells", 
+			"highVoltageConsumption": "parameters.HV_consumption", 
+			"EMPowerScaling": 1, 
+			"NcAgingFactor": "parameters.setNcAgingFactor", 
+			"RiAgingFactor": "parameters.setRiAgingFactor", 
+			"additionalVariable": "parameters.setAdditionalVariable", 
+			"time": "simulationSettings.StopTime", 
+			"steadyState": 0
+		},
+		"result":
+		{
+			"torque": "summarySystemSPS.machineTorque", 
+			"power": "summarySystemSPS.mechanicalPower",
+			"status": 0,
+			"DCCurrent": "summarySystemSPS.batteryCurrent",
+			"DCVoltage": "summarySystemSPS.batteryVoltage",
+			"ACCurrent": "summarySystemSPS.ACrmsCurrent",
+			"endSOC": "summarySystemSPS.SOC",
+			"additionVariable": "summarySystemSPS.additionalOutput"
+		}
+		
+	}
+}

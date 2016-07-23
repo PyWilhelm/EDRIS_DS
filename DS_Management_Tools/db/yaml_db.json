@@ -1,0 +1,15 @@
+[{
+  "path":
+  "E:\\BeSTD\\03_Tools-Modelle-Methoden\\AutomatisiertesTesting\\09_ExchangeDirectory\\testsDirectory\\Projekten\\FAAR\\gen3_int",
+    "data": {
+      "Battery_01": {
+        "Available": [
+          "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\01_PHEV1_85mm_UHE\\03_Gen5_20140717_PHEV1_85mm_UHE_96s3p", 
+          "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\03_PHEV1_85mm_P\\01_Gen5_20140717_PHEV1_85mm_P_96s1p"
+        ], 
+        "Info": "Battery_01", 
+        "Base": "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\01_PHEV1_85mm_UHE\\01_Gen5_20140717_PHEV1_85mm_UHE_88s3p"
+      }
+    }
+  }
+]

@@ -1,0 +1,90 @@
+{    
+    "building":
+    {
+        "definition":
+        {
+            "Battery": "battery"
+        }
+        
+    },
+    
+	"classes":
+	{
+		"taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTG",
+		"reporter": "TaskController.SPS.ReporterSPSPlot.ReporterSPSPlot"
+	},
+	
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Battery_SPS_base Generate",
+        "arguments":
+        {
+            "variable":
+            [
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "power":
+                        {
+                            "maxValue" : "-1",
+                            "minValue" : "-1500000",
+                            "errorRange" : "10"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "15"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "powerTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2"
+                        },
+                        "results":
+                        [
+                            {"signalName": "clock.y"},
+                            {"signalName": "summary.batteryCurrent"},
+                            {"signalName": "summary.batteryCurrentChargeLimit"},
+                            {"signalName": "summary.batteryCurrentDischargeLimit", "unit": "A"},
+                            {"signalName": "summary.batteryVoltage", "unit": "V"},
+                            {"signalName": "summary.batteryVoltageChargeLimit"},
+                            {"signalName": "summary.batteryCellCoreTemperature"},
+                            {"signalName": "summary.batteryStartCoolingTemperature"},
+                            {"signalName": "summary.batteryStopCoolingTemperature"},
+                            {"signalName": "summary.batteryPower", "unit": "W"},
+                            {"signalName": "summary.batteryDesiredPower"},
+                            {"signalName": "summary.batteryMaxDischargePower"},
+                            {"signalName": "summary.SOC"},
+                            {"signalName": "summary.deratingStatus"},
+                            {"signalName": "summary.energyBatteryWh"},
+                            {"signalName": "summary.efficiencyEnergy"},
+                            {"signalName": "summary.resistanceInnerCell", "unit": "Ohm"},
+                            {"signalName": "summary.voltageIdle"},
+                            {"signalName": "summary.additionalOutput"}	
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

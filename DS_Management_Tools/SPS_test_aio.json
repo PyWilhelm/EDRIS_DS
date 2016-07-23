@@ -1,0 +1,135 @@
+{
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTGDummy",
+        "reporter": "TaskController.SPS.ReporterSPS.ReporterSPS"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Separated_SPS_base Generate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": ["0.3", "0.6"]
+                },
+                
+                {
+                    "name": "setSpeed",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": "500:500:1000 1000"
+                },
+                 
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": ["25", "30"]
+                },
+                  
+                {
+                    "name": "StopTime",
+                    "link": "parameterOfFunction.testArguments.simulationSettings",
+                    "value": ["10","30"]
+                },
+                
+                {
+                    "name": "SOH",
+                    "link": "parameterOfFunction.testArguments",
+                    "value": ["0"]
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : [
+				                "EDRIS_wrapper.egg", 
+				                "BaseTask.py",
+				                "dymola.lic"
+                				],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "setTorque":
+                        {
+                            "maxValue" : "1500",
+                            "minValue" : "1",
+                            "errorRange" : "2"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "15"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "setTorqueTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0",
+                            "RCIend_terminate": "0.0001"
+                        },
+                        "results":
+                        [
+                            {
+                                "signalName": "_signalBus_Main.batteryBus.general.current",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "battery current",
+                                "sdfName":"i_DC_P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.electricMachine1Bus.general.currentRMS", 
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "root mean square of the AC current", 
+                                "sdfName":"i_ACRMS_P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.batteryBus.general.voltage", 
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery voltage", 
+                                "sdfName":"v_P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.electricMachine1Bus.general.powerMech", 
+                                "unit": "W",
+                                "quantity": "Power", 
+                                "comment": "system mechanical power", 
+                                "sdfName":"P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.batteryBus.general.SOC",
+                                "comment": "battery state of charge at simulation end", 
+                                "sdfName":"SOC_end_peak"
+                            },
+                            {"signalName": "summary.deratingStatus",
+                                "comment": "derating status indicator (0 : No derating, 1 : Current derating (HVS), 2 : Voltage derating (HVS), 3 : SOC (energy) derating (HVS), 4 : max torque derating (EM))", 
+                                "sdfName":"derating_peak"
+                            }         
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

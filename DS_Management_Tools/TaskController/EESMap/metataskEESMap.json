@@ -1,0 +1,99 @@
+{
+	"building":
+	{
+		"definition":
+		{
+			"Battery_01": "battery"
+		}
+	},
+	"classes":
+	{
+		"taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTG",
+		"reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+	},
+	
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Separated_SPS_base Generate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                
+                
+                {
+                    "name": "power",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "W",
+                    "quantity": "Power", 
+                    "sdfName":"P_out",
+                    "comment": "Requested power output",
+                    "value": "-12000:5000:65000"
+                },
+                 
+
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "K", 
+                    "displayUnit": "degC", 
+                    "quantity": "Temperature", 
+                    "sdfName":"T_Core",
+                    "comment": "Core temperature of the battery cell",
+                    "value": "-35:2.5:55"
+                },
+
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"SOC",
+                    "comment": "State of Charge",
+                    "value": "0.05 0.1:0.1:1"
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SimpleDymolaSimulationTask.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                    },
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "950"
+                        },
+                        "parameters":
+                        {
+                            "initEnergy": "2"
+                        },
+                        "results":
+                        [
+                            {   
+                                "signalName": "Time",
+                                "unit": "s", 
+                                "quantity": "Time", 
+                                "comment": "Time after which the requested power can no longer be garanteed",
+                                "sdfName": "t_pulse"
+                            },
+                            {
+                                "signalName": "summary.deratingStatus",
+                                "comment": "Derating criterion (0: None, 1: Current, 2: Voltage, 3: SOC)",
+                                "sdfName": "derating"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

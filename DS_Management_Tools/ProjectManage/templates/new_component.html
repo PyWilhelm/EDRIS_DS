@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title></title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="" name="keywords" />
+	<meta content="" name="description" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+	<link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+	</script>
+
+</head>
+<body>
+<div id="header-wrapper">
+<div class="container" id="header">
+<div id="logo">
+<h1>EdriS MANAGEMENT</h1>
+</div>
+
+<div id="menu">
+<ul>
+	<li class="current_page_item"><a accesskey="1" href="/" title="" style="color: White">Homepage</a></li>
+	<li class="current_page_item"><a accesskey="1" href="#" title="">New component</a></li>
+	<li>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="header-featured">
+<div id="banner-wrapper">&nbsp;</div>
+</div>
+</div>
+
+<div id="wrapper">
+<div class="container" id="page">
+<div id="content">
+<div class="title">
+<h2>Setting New Component</h2>
+<h3>Please commit SVN before any operation on this page</h3>
+<h3>Please try again after several minutes if the page is redirected to "NotFound.html", the server may not update SVN</h3>
+</div>
+
+<p>&nbsp;</p>
+
+<form action='/submit' method='post' enctype='multipart/form-data'>
+<ul class="container" id="banner">
+	<li>Component Path: <label style="font-size: 18px; font-weight:bold; color:red">(type the absolute folder path)</label>
+	<div id="paths"><input name="path" size="44" style="width: 652px; height: 29px" type="text" onchange="on_change()" />
+	</div></li>
+	<li>&nbsp;</li>
+	<li>Component Type: <label style="font-size: 18px; font-weight:bold; color:red">(must be selected)</label>
+        <div id="type">
+            <select name="type" style="font-size: 16px; font-weight:bold;">
+                <option value="Battery">Battery</option>
+                <option value="Charger">Charger</option>
+                <option value="DCDCConverter">DCDCConverter</option>
+                <option value="ElectricMachine">ElectricMachine</option>
+            </select>
+        </div>
+
+    </li>
+    <li>&nbsp;</li>
+
+	<li>Description (optional):
+	<div>
+	<textarea cols="57" name="description" rows="3" style="width: 529px; height: 70px">
+	</textarea>
+
+	</div></li>
+	<li>Operator ID (recommended):&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div><input name="name" size="62" style="width: 522px; height: 28px" type="text" /></div></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+    <li><input type="submit" value="Submit" style="font-size: 18px; font-weight: bold" /></li>
+</ul>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

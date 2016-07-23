@@ -1,0 +1,16 @@
+{
+    "meta_function": "sampleTask.py",
+
+    "dependency": ["BaseTask.py"],
+
+    "parameterOfFunction":
+    {
+        "testArguments":
+        {
+            "results":
+            [
+                {"signalName": "c"},
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "buildingInfo": {
+        "battery": {
+            "child": {
+                "GeneralLoadSelection": {
+                    "method": "redeclare",
+                    "type": "record",
+                    "value": "EdrisLibData.Battery.General.G011_GEN5_20140828_MCV2_85mm_UHE_96s_3p"
+                },
+                "ThermalLoadSelection": {
+                    "method": "redeclare",
+                    "type": "record",
+                    "value": "EdrisLibData.Battery.Thermal.T011_GEN5_20140828_MCV2_85mm_UHE_96s_3p"
+                }
+            }
+        }
+    },
+    "dependency": [
+        "EDRIS_wrapper.egg",
+        "BaseTask.py"
+    ],
+    "meta_function": "SSPS.py",
+    "parameterOfFunction": {
+        "functionArguments": {
+            "setTorque": {
+                "errorRange": "2",
+                "maxValue": "1500",
+                "minValue": "1"
+            }
+        },
+        "info": {
+            "n_max": 10000,
+            "n_eck": 5100
+        },
+        "testArguments": {
+            "modelName": "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base",
+            "parameters": {
+                "HV_consumption": "0",
+                "RCIend_terminate": 0.1,
+                "setTorqueTolerance": "0.5",
+                "timeOffset": "0.2"
+            }
+        }
+    }
+}

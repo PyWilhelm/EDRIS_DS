@@ -1,0 +1,97 @@
+{
+    "title": "constant schema",
+    "type": "object",
+    "properties":
+    {
+        "buildingInfo":
+        {
+            "type": "object"
+        },
+        "meta_function": 
+        {
+            "type": "string"
+        },
+        "dependency": 
+        {
+            "type": "array", 
+            "items": 
+            {
+                "type": "string"
+            }
+        }, 
+        "parameterOfFunction": 
+        {
+            "type": "object",
+            "properties": 
+            {
+                "functionArguments":
+                {
+                    "type": "object"
+                },
+                "testArguments":
+                {
+                    "type": "object",
+                    "properties": 
+                    {
+                        "modelName":
+                        {
+                            "type": "string",
+                            "pattern": "^[A-Za-z0-9\\_][A-Za-z0-9\\.\\_]*[A-Za-z0-9\\_]+$"
+                        },
+                        "simulationSettings":
+                        {
+                            "type": "object",
+                            "patternProperties":
+                            {
+                                "^[A-Za-z0-9\\_\\.]*$":
+                                {
+                                    "type": "string",
+                                    "pattern": "^[-+]?[0-9]*\\.?[0-9]+$"
+                                }
+                            }
+                        },
+                        "parameters":
+                        {
+                            "type": "object",
+                            "patternProperties":
+                            {
+                                "^[A-Za-z0-9\\_\\.]*$":
+                                {
+                                    "type": "string",
+                                    "pattern": "^[-+]?[0-9]*\\.?[0-9]+$"
+                                }
+                            }
+                        },
+                        "results":
+                        {
+                            "type": "array",
+                            "items":
+                            {
+                                "type": "object",
+                                "properties":
+                                {
+                                    "signalName": 
+                                    {
+                                        "type": "string"
+                                    },
+                                    "unit":
+                                    {
+                                        "type": "string"
+                                    }
+                                },
+                                
+                                "required": ["signalName"]
+                            }
+                            
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": ["modelName", "simulationSettings" ,"parameters", "results"]
+               }
+               
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": ["parameterOfFunction", "dependency", "meta_function"]
+}

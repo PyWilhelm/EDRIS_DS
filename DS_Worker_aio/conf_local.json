@@ -1,0 +1,10 @@
+{
+  "webserivce_host": "localhost", 
+  "webserivce_port": 800,
+  "thread": 8,
+    "username": "EDRIS",
+    "password": "EDRIS",
+    "privatekey": "certificates\\host.key",
+    "certfile":   "certificates\\host.crt",
+    "https": false
+}

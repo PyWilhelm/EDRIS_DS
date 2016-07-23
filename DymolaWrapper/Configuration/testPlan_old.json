@@ -1,0 +1,517 @@
+{
+    "librariesRequired" :
+    [
+        {"library" : "EDRISLibComponents"},
+        {"library" : "EDRISLibData"},
+        {"library" : "EDRISLibSystems"},
+        {"library": "SimDevTools"}    
+    ],
+    "tests":
+    [
+        {
+            "testName" : "Single Cable Model Example",
+            "modelName" : "EdrisLibComponents.Components.WireHarness.Examples.TB_SingleCable",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "50"
+            },
+            "results" :
+            [
+                {"signalName": "_signalBus_WireHarness.general.frequency"},
+                {"signalName": "_signalBus_WireHarness.general.current"},
+                {"signalName": "_signalBus_WireHarness.general.voltageDrop"},
+                {"signalName": "_signalBus_WireHarness.general.impedanceRe"},
+                {"signalName": "_signalBus_WireHarness.general.impedanceIm"},
+                {"signalName": "_signalBus_WireHarness.thermal.temperatureCoreCelsius"},
+                {"signalName": "_signalBus_WireHarness.thermal.temperatureEnvironmentCelsius"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.powerLossTotal"},    
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.energyLossTotalWh"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.efficiencyPower"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.efficiencyEnergy"}
+            ]
+        },
+
+        {
+            "testName" : "Double Cables Model Example",
+            "modelName" : "EdrisLibComponents.Components.WireHarness.Examples.TB_DoubleCables",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "50"
+            },
+            "results" :
+            [
+                {"signalName": "_signalBus_WireHarness.general.frequency"},
+                {"signalName": "_signalBus_WireHarness.general.current"},
+                {"signalName": "_signalBus_WireHarness.general.voltageDrop"},
+                {"signalName": "_signalBus_WireHarness.general.impedanceRe"},
+                {"signalName": "_signalBus_WireHarness.general.impedanceIm"},
+                {"signalName": "_signalBus_WireHarness.thermal.temperatureCoreCelsius"},
+                {"signalName": "_signalBus_WireHarness.thermal.temperatureEnvironmentCelsius"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.powerLossTotal"},    
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.energyLossTotalWh"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.efficiencyPower"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.efficiencyEnergy"}
+            ]
+        },
+
+        {
+            "testName" : "Three Cables Model Example",
+            "modelName" : "EdrisLibComponents.Components.WireHarness.Examples.TB_ThreeCables",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "50"
+            },
+            "results" :
+            [
+                {"signalName": "_signalBus_WireHarness.general.frequency"},
+                {"signalName": "_signalBus_WireHarness.general.current"},
+                {"signalName": "_signalBus_WireHarness.general.voltageDrop"},
+                {"signalName": "_signalBus_WireHarness.general.impedanceRe"},
+                {"signalName": "_signalBus_WireHarness.general.impedanceIm"},
+                {"signalName": "_signalBus_WireHarness.thermal.temperatureCoreCelsius"},
+                {"signalName": "_signalBus_WireHarness.thermal.temperatureEnvironmentCelsius"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.powerLossTotal"},    
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.energyLossTotalWh"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.efficiencyPower"},
+                {"signalName": "_signalBus_WireHarness.energyAnalysis.efficiencyEnergy"}
+            ]
+        },
+
+        {
+            "testName" : "Fuel Cell Model Example",
+            "modelName" : "EdrisLibComponents.Components.FuelCells.Examples.TB_FuelCell",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "50"
+            },
+            "results" :
+            [
+                {"signalName": "_signalBus_FuelCell.general.voltage"},
+                {"signalName": "_signalBus_FuelCell.general.current"},
+                {"signalName": "_signalBus_FuelCell.general.powerElec"},
+                {"signalName": "_signalBus_FuelCell.controller.powerMax"},
+                {"signalName": "_signalBus_FuelCell.powerLoss.powerLossPump"},
+                {"signalName": "_signalBus_FuelCell.powerLoss.powerLossComp"},
+                {"signalName": "_signalBus_FuelCell.powerLoss.powerLossTotal"},
+                {"signalName": "_signalBus_FuelCell.powerLoss.powerChem"},    
+                {"signalName": "_signalBus_FuelCell.energyAnalysis.energyElecWh"},
+                {"signalName": "_signalBus_FuelCell.energyAnalysis.energyChemWh"},
+                {"signalName": "_signalBus_FuelCell.energyAnalysis.efficiencyPower"},
+                {"signalName": "_signalBus_FuelCell.energyAnalysis.efficiencyEnergy"},
+                {"signalName": "_signalBus_FuelCell.energyAnalysis.massH2Consumption"}
+            ]
+        },
+
+        {
+            "testName" : "EMachine simple model Example Thermal Port Test",
+            "modelName" : "EdrisLibComponents.Components.ElectricMachines.Examples.TB_ElectricMachineThermalport",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "50"
+            },
+            "results" :
+            [
+                {"signalName": "desSpeed.y"},
+                {"signalName": "desTorque.y"},
+                {"signalName": "InverterDCVoltage.y"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.currentRMS"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.modulationindex"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.frequencyElec"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.powerMech"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.torque"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossTotal"},    
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossStatorEndwinding"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.speedMax"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.torqueLimMot"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.torqueLimGen"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.temperatureMinEndWindingWarningCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureStatorEndWindingCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureRotorTransformatorCelsius"}
+            ]
+        },
+
+        {
+            "testName" : "EMachine datailed model Example Fluid Port Test",
+            "modelName" : "EdrisLibComponents.Components.ElectricMachines.Examples.TB_ElectricMachineFluidport",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "300"
+            },
+            "results" :
+            [
+                {"signalName": "desSpeed.y"},
+                {"signalName": "desTorque.y"},
+                {"signalName": "InverterDCVoltage.y"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.currentRMS"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.currentLd"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.torque"},    
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.powerFactor"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.modulationindex"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.frequencyElec"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.general.powerMech"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossStatorEndwinding"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossToothIron"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossBearing"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossRotorTransformator"},    
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossToothIron"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossFrameA"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.powerLoss.powerLossTotal"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.torqueLimMot"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.torqueLimGen"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.speedMax"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.temperatureMaxRotorWarningCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.temperatureMinRotorWarningCelsius"},    
+                {"signalName": "e_Machine._signalBus_ElectricMachine.controller.temperatureMaxEndWindingWarningCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureStatorEndWindingCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureStatorWindingCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureBearingCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureRotorIronCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureRotorTransformatorCelsius"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.thermal.temperatureRotorWindingCelsius"},    
+                {"signalName": "e_Machine._signalBus_ElectricMachine.energyAnalysis.derating"},    
+                {"signalName": "e_Machine._signalBus_ElectricMachine.energyAnalysis.efficiencyPower"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.energyAnalysis.efficiencyEnergy"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.energyAnalysis.energyMechOut"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.energyAnalysis.energyElecIn"},
+                {"signalName": "e_Machine._signalBus_ElectricMachine.energyAnalysis.energyLoss"}
+            ]
+        },
+
+        {
+            "testName" : "Inverter Example Flow Port Test Infineon",
+            "modelName" : "EdrisLibComponents.Components.Inverters.Examples.TB_Inverter_FlowPort_Test_Infineon",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [
+                {"signalName": "_signalBus_Inverter1.thermal.temperatureDiodeCelsius"},
+                {"signalName": "_signalBus_Inverter1.thermal.temperatureIGBTCelsius"},
+                {"signalName": "_signalBus_Inverter1.thermal.temperatureNTCCelsius"},
+                {"signalName": "_signalBus_Inverter1.thermal.temperatureSolderCelsius"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossDiode"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossDiodeConducting"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossDiodeSwitching"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossIGBT"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossIGBTConducting"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossIGBTSwitching"},
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossTotal"},
+                {"signalName": "_signalBus_Inverter1.general.currentDC"},
+                {"signalName": "_signalBus_Inverter1.energyAnalysis.efficiencyEnergy"},
+                {"signalName": "_signalBus_Inverter1.energyAnalysis.efficiencyPower"},
+                {"signalName": "_signalBus_Inverter1.energyAnalysis.energyLossWh"},
+                {"signalName": "_signalBus_Inverter1.controller.frequencySwitchingkHz"},
+                {"signalName": "_signalBus_Inverter1.controller.currentRMSLimMot"}        
+        ]
+        },
+
+        {
+            "testName" : "Inverter Example Flow Port Test Simple",
+            "modelName" : "EdrisLibComponents.Components.Inverters.Examples.TB_Inverter_FlowPort_Test_Simple",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [
+                {"signalName": "_signalBus_Inverter1.powerLoss.powerLossTotal"},
+                {"signalName": "_signalBus_Inverter1.general.currentDC"},
+                {"signalName": "_signalBus_Inverter1.energyAnalysis.efficiencyEnergy"},
+                {"signalName": "_signalBus_Inverter1.energyAnalysis.efficiencyPower"},
+                {"signalName": "_signalBus_Inverter1.energyAnalysis.energyLossWh"},        
+                {"signalName": "_signalBus_Inverter1.controller.currentRMSLimMot"}        
+            ]
+        },
+
+        {
+            "testName" : "ekmv example test",
+            "modelName" : "EdrisLibComponents.Components.ElectricCoolers.Examples.TestBench_ElectricCooling",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "1000"
+            },
+            "results" :
+            [                
+                {"signalName": "eKMV._signalBus_ElectricCooling.general.powerElec"},
+                {"signalName": "eKMV._signalBus_ElectricCooling.general.COP"},
+                {"signalName": "eKMV._signalBus_ElectricCooling.thermal.temperatureCoolant"},
+                {"signalName": "eKMV._signalBus_ElectricCooling.thermal.powerThermal"},
+                {"signalName": "eKMV._signalBus_ElectricCooling.controller.coolingActive"}    
+            ]
+        },
+
+        {
+            "testName" : "Electric heating example test",
+            "modelName" : "EdrisLibComponents.Components.ElectricHeaters.Examples.TestBench_ElectricHeating",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [                
+        {"signalName": "electricHeater._signalBus_ElectricHeating.general.current"},
+        {"signalName": "electricHeater._signalBus_ElectricHeating.general.powerElec"},
+        {"signalName": "electricHeater._signalBus_ElectricHeating.thermal.temperatureCelsius"},
+        {"signalName": "electricHeater._signalBus_ElectricHeating.thermal.powerThermal"}        
+            ]
+        },
+
+        {
+            "testName" : "Super cap example test",
+            "modelName" : "EdrisLibComponents.Components.SuperCap.Examples.TB_SuperCap_Test",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [                
+                {"signalName": "_signalBus_SuperCap1.general.current"},
+                {"signalName": "_signalBus_SuperCap1.general.power"},
+                {"signalName": "_signalBus_SuperCap1.general.SOC"},
+                {"signalName": "_signalBus_SuperCap1.general.voltage"},
+                {"signalName": "_signalBus_SuperCap1.general.voltageIdle"},    
+                {"signalName": "_signalBus_SuperCap1.powerLoss.powerLoss"},    
+                {"signalName": "_signalBus_SuperCap1.thermal.temperatureCellCelsius"},    
+                {"signalName": "_signalBus_SuperCap1.controller.powerLimCharge"},    
+                {"signalName": "_signalBus_SuperCap1.controller.powerLimDischarge"}            
+            ]
+        },
+        {
+            "testName" : "DC Link example test",
+            "modelName" : "EdrisLibComponents.Components.DCLink.Examples.TB_DCLink_Test",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [                
+                {"signalName": "TB_DCLink._signalBus_DCLink.powerLoss.powerLoss"},
+                {"signalName": "TB_DCLink._signalBus_DCLink.thermal.temperatureHotspotCelsius"},
+                {"signalName": "TB_DCLink._signalBus_DCLink.general.currentINV"},
+                {"signalName": "TB_DCLink._signalBus_DCLink.general.currentHVS"}
+            ]
+        },
+        {
+            "testName" : "Charger with Battery Test",
+            "modelName" : "EdrisLibComponents.Components.Chargers.Examples.TB_simpleCharger",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.01",
+                "StopTime" : "200"
+            },
+            "results" :
+            [
+                {"signalName": "charger._signalBus_Charger.general.powerDC"}
+            ]
+        },
+        {
+            "testName" : "Charger Loss Test",
+            "modelName" : "EdrisLibComponents.Components.Chargers.Examples.ndTableTesterEasy",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.01",
+                "StopTime" : "10"
+            },
+
+            "results" :
+            [
+                {"signalName": "L002_threeInputLoss.out_chargerPowerLosses"}
+            ]
+        },
+        {
+            "testName" : "DCDC TestBench",
+            "modelName" : "EdrisLibComponents.Components.DCDCConverters.Examples.DCDCTestBench",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.01",
+                "StopTime" : "10"
+            },
+            "results" :
+            [
+                {"signalName": "dCDCConverter._signalBus_DCDCConverter.powerLoss.powerLoss"}
+            ]
+        },
+        {
+            "testName" : "Battery Test",
+            "modelName" : "EdrisLibComponents.Components.Batteries.Examples.TB_SetPower",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "StopTime" : "2500"
+            },
+            "results" :
+            [
+                {"signalName": "_batteryBus.general.current"},
+                {"signalName": "_batteryBus.general.voltage"},
+                {"signalName": "_batteryBus.general.power"},
+                {"signalName": "_batteryBus.general.SOC"},
+                {"signalName": "_batteryBus.thermal.temperatureCellCoreCelsius"},
+                {"signalName": "_batteryBus.thermal.temperatureCellSurfaceCelsius"},
+                {"signalName": "_batteryBus.controller.powerLimCharge"},
+                {"signalName": "_batteryBus.controller.powerLimDischarge"},
+                {"signalName": "_batteryBus.controller.currentLimCharge"},
+                {"signalName": "_batteryBus.controller.currentLimDischarge"},
+                {"signalName": "_batteryBus.general.resistanceInnerCell"}
+            ]
+        },
+        {
+            "testName" : "Charger FMI Test",
+            "modelName" : "EdrisLibComponents.Components.Chargers.FMI.Testbenches.Testbench",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "1",
+                "StopTime" : "25000"
+            },
+            "results" :
+            [
+                {"signalName": "fmi_Charger.charger._signalBus_Charger.powerLoss.powerLoss"},
+                {"signalName": "fmi_Battery.battery._signalBus_Battery.general.SOC"},
+                {"signalName": "fmi_Charger.charger._signalBus_Charger.general.currentDC"}
+            ]
+        },
+        {
+            "testName" : "DCDC FMI Test",
+            "modelName" : "EdrisLibComponents.Components.DCDCConverters.FMI.Testbenches.TestBench",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "10"
+            },
+            "results" :
+            [
+                {"signalName": "fmi_DCDCConverter_I12.out_P_losses"}
+            ]
+         },
+         {
+            "testName" : "EDrive FMI Test",
+            "modelName" : "EdrisLibSysTemp.FMI_ElectricDrive.Testbenches.Testbench_I12_EMP242",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "1000"
+            },
+            "results" :
+            [
+                {"signalName": "diffIdc.y"},
+                {"signalName": "diffP_loss_inv.y"},
+                {"signalName": "diffP_loss_EM.y"},
+                {"signalName": "diffT_min_available.y"},
+                {"signalName": "diffT_max_available.y"}
+            ]
+         },
+         {
+            "testName" : "SPS separated test",
+            "modelName" : "EdrisLibSysTemp.SPS.baseModel.TB_Separated_SPS_base",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "150"
+            },
+            "results" :
+            [
+                {"signalName": "summarySystemSPS.ACrmsCurrent"},
+                {"signalName": "summarySystemSPS.batteryCurrent"},
+                {"signalName": "summarySystemSPS.batteryVoltage"},
+                {"signalName": "summarySystemSPS.deratingStatus"},
+                {"signalName": "summarySystemSPS.machineTorque"},
+                {"signalName": "summarySystemSPS.SOC"},
+                {"signalName": "_signalBus_Battery1.controller.powerLimCharge"},
+                {"signalName": "_signalBus_Battery1.controller.powerLimDischarge"},
+                {"signalName": "_signalBus_ElectricMachine1.controller.torqueLimGen"},
+                {"signalName": "_signalBus_ElectricMachine1.controller.torqueLimMot"},
+                {"signalName": "storageInputs.activCooling.y"}
+            ]
+        },
+        {
+            "testName" : "PCP test",
+            "modelName" : "EdrisLibSysTemp.SPS.baseModel.TB_Battery_PCP_base",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "150"
+            },
+            "results" :
+            [
+                {"signalName": "battery._signalBus_Battery.general.current"},
+                {"signalName": "battery._signalBus_Battery.controller.currentLimCharge"},
+                {"signalName": "battery._signalBus_Battery.controller.currentLimDischarge"},
+                {"signalName": "battery._signalBus_Battery.general.voltage"},
+                {"signalName": "battery._signalBus_Battery.thermal.temperatureCellCoreCelsius"},
+                {"signalName": "battery._signalBus_Battery.general.power"},
+                {"signalName": "battery.out_maxDischargePower"},
+                {"signalName": "_signalBus_Battery1.controller.powerLimDischarge"},
+                {"signalName": "battery._signalBus_Battery.general.SOC"},                
+                {"signalName": "storageInputs.activCooling.y"}
+            ]
+        },
+        {
+            "testName" : "Power intersection test",
+            "modelName" : "EdrisLibComponents.Components.EDriSFunction.TestBenchs.TB_I12_PM90_25_A_EXT_Leistungsverschneidung_Controler_Based_V1_WORKS",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.01",
+                "StopTime" : "150"
+            },
+            "results" :
+            [
+                {"signalName": "eDRIS_Function_v1_1.out_Prog_MaxTorque"},
+                {"signalName": "eDRIS_Function_v1_1.out_Prog_MinTorque"},
+                {"signalName": "eDRIS_Function_v1_1.out_ProgDischCurrent"},
+                {"signalName": "eDRIS_Function_v1_1.out_ProgChargeCurrent"},
+                {"signalName": "eDRIS_Function_v1_1.out_max_voltage_pred"},
+                {"signalName": "eDRIS_Function_v1_1.out_min_voltage_pred"}
+            ]
+        },
+{
+            "testName" : "Battery FMI test",
+            "modelName" : "EdrisLibComponents.Components.Batteries.FMI.Testbenches.TestBench",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "500"
+            },
+            "results" :
+            [
+                {"signalName": "fmi_Battery.out_maxChargeVoltage1"},
+                {"signalName": "fmi_Battery.out_maxChargeCurrent1"},
+                {"signalName": "fmi_Battery.out_SOC1"},
+                {"signalName": "fmi_Battery.out_ElectrochemicalTemperature1"}
+            ]
+        }
+    ]
+}

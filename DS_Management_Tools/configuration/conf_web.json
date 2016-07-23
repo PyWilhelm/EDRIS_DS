@@ -1,0 +1,43 @@
+{    
+    "edrisProjectBasePath" : "E:\\BeSTD\\03_Tools-Modelle-Methoden\\AutomatisiertesTesting\\09_ExchangeDirectory\\testsDirectory\\Projekten",
+    "edrisProjectPaths" : ["FAAR"],
+    "edrisProjectPattern" : ["info.yaml", "general", "Master"],
+    "syncPath" : "Master",
+    "edePath" : "c:\\server\\sync_tools\\test_ede",
+    "edrisProjectKeyWord" : "_int",
+    "edrisDatabase": "EDRIS_database\\trunk\\",
+    "edrisDatabaseEESParameters": "EDRIS_database\\trunk\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData",
+    "edrisDatabaseEMParameters" : "EDRIS_database\\trunk\\ComponentData\\04_EM\\02_ComponentData",
+    "edrisDatabaseDCDCParameters": "EDRIS_database\\trunk\\ComponentData\\05_DCDC\\02_ComponentData",
+    "edrisDatabaseChargerParameters": "EDRIS_database\\trunk\\ComponentData\\06_Charger\\02_ComponentData",
+    "edrisDatabaseParameters": "EDRIS_database\\trunk\\ComponentData",
+    "outputPath": "C:\\myjob\\EDRIS_Management_Tools\\output",
+
+    "webSetting":
+    {
+        "host": "localhost",
+        "port": 800,
+        "username": "EDRIS",
+        "password": "EDRIS",
+        "keyfile": "certificates\\host.key",
+        "certfile":   "certificates\\host.crt",
+        "https": false
+    },
+     "projectManageSetting":
+    {
+        "host": "localhost",
+        "port": 443,
+        "username": "EDRIS",
+        "password": "EDRIS",
+        "keyfile": "certificates\\host.key",
+        "certfile":   "certificates\\host.crt",
+         "https": true
+    },
+    "svn":
+    {
+        "username": "qxg2705",
+        "password": "1makimit",
+        "componentsPath": "C:\\EdrisAscent"
+    },
+    "tempdir": "c:\\server\\temp"
+}

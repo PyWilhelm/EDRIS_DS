@@ -1,0 +1,11 @@
+# License number 10301 (Server license)
+#
+# BMW AG
+#
+# File created 26-Jan-2011 15:00:23
+#
+SERVER winlic-d1.muc 001185be96f3 1809
+SERVER winlic-d2.muc 001185be9737 1809
+SERVER winlic-d3.muc 001185be9481 1809
+VENDOR dynasim
+USE_SERVER

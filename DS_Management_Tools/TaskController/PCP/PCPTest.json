@@ -1,0 +1,146 @@
+{
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTG",
+        "reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB Steadystate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"SOC_P_peak",
+                    "comment": "initial battery SOC",
+                    "value": ["0.05", "1.0"]
+                },
+
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"T_P_peak",
+                    "comment": "battery cell core temperature",
+                    "value": ["5", "10"]
+                },
+
+                {
+                    "name": "StopTime",
+                    "link": "parameterOfFunction.testArguments.simulationSettings",
+                    "unit": "s", 
+                    "quantity": "Time", 
+                    "sdfName":"t_P_peak",
+                    "comment": "pulse time for constant power output",
+                    "value": ["5", "10"]
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "power":
+                        {
+                            "maxValue" : "-1",
+                            "minValue" : "-1500000",
+                            "errorRange" : "10"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_PCP_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "10"
+                        },
+                        "parameters":
+                        {
+                            "setPowerTolerance": "10",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0"
+                        },
+                        "results":
+                        [
+                            {   
+                                "signalName": "_signalBus_Main.batteryBus.general.current",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "battery current",
+                                "sdfName":"i_DC_P_peak"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.voltage", 
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery voltage", 
+                                "sdfName":"v_P_peak"
+                            },
+                            {"signalName": "summary.batteryPower", 
+                                "comment": "battery state of charge at simulation end", 
+                                "sdfName":"p_peak",
+                                "quantity": "Power",
+                                "unit": "W"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.SOC",
+                                "comment": "battery state of charge at simulation end", 
+                                "sdfName":"SOC_end_peak"
+                            },
+                            {"signalName": "Ri_Calculation.out_VoltagePerCell",
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery cell voltage", 
+                                "sdfName":"v_P_peak_cell"
+                            },
+                            {"signalName": "Ri_Calculation.out_CurrentPerCell",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "battery cell current",
+                                "sdfName":"i_P_peak_cell"
+                            },
+                            {"signalName": "Ri_Calculation.out_Ri",
+                                "unit": "Resistance", 
+                                "quantity": "Ohm", 
+                                "comment": "battery resistance",
+                                "sdfName":"r_P_peak"
+                            },
+                            {"signalName": "Ri_Calculation.out_OCVperCell",
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery cell voltage", 
+                                "sdfName":"v_P_peak_open"
+                            },
+                            {"signalName": "voltageMinDischarge.y",
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery min voltage discharge", 
+                                "sdfName":"v_min"
+                            },
+                            {"signalName": "voltageMaxCharge.y",
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery max voltage discharge", 
+                                "sdfName":"v_max"
+                            },
+                            {"signalName": "summary.deratingStatus",
+                                "comment": "derating status indicator (0 : No derating, 1 : Current derating (HVS), 2 : Voltage derating (HVS), 3 : SOC (energy) derating (HVS), 4 : max torque derating (EM))", 
+                                "sdfName":"derating_peak"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

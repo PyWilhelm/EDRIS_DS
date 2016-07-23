@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="234" errors="87" failures="0" skip="0"><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_HE_104s1p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_HE_108s1p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_HE_84s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_HE_96s1p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_UHE_108s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_UHE_84s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_UHE_96s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_MCV2_UHE_96s3p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_HE_104s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_HE_96s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_HE_96s3p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_HE_96s4p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_P_96s1p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_P_96s2p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_UHE_108s4p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_UHE_88s3p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_UHE_88s6p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_UHE_96s3p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_UHE_96s4p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140717_PHEV1_85mm_UHE_96s6p_10_Parameter_20140717(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140827_MCV2_HE_104s_1p_10_Parameter_20140827(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140827_MCV2_HE_108s_1p_10_Parameter_20140827(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140827_MCV2_HE_108s_2p_EA402_10_Parameter_20140827(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\Gen5_20140827_MCV2_HE_108s_2p_EA402\10_Parameter\20140827&#10;['Member Data Error!', 'PCP Data missing!', 'Document File Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\Gen5_20140827_MCV2_HE_108s_2p_EA402\10_Parameter\20140827&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\Gen5_20140827_MCV2_HE_108s_2p_EA402\10_Parameter\20140827
+['Member Data Error!', 'PCP Data missing!', 'Document File Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\Gen5_20140827_MCV2_HE_108s_2p_EA402\10_Parameter\20140827
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140827_MCV2_HE_84s_2p_10_Parameter_20140827(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140827_MCV2_HE_96s_1p_10_Parameter_20140827(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140828_MCV2_UHE_108s2p_10_Parameter_20140828(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140828_MCV2_UHE_96s2p_10_Parameter_20140828(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140828_MCV2_UHE_96s3p_10_Parameter_20140828(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140829_PHEV1_85mm_P_96s_1p_10_Parameter_20140829(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140829_PHEV1_85mm_P_96s_2p_10_Parameter_20140829(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140901_PHEV1_85mm_HE_104s_2p_10_Parameter_20140901(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140901_PHEV1_85mm_HE_96s_2p_10_Parameter_20140901(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140901_PHEV1_85mm_HE_96s_3p_10_Parameter_20140901(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140901_PHEV1_85mm_HE_96s_4p_10_Parameter_20140901(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140902_PHEV1_85mm_UHE_108s4p_10_Parameter_20140902(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140902_PHEV1_85mm_UHE_88s3p_10_Parameter_20140902(,)" time="0.001"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140902_PHEV1_85mm_UHE_88s6p_10_Parameter_20140902(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140902_PHEV1_85mm_UHE_96s3p_10_Parameter_20140902(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140902_PHEV1_85mm_UHE_96s4p_10_Parameter_20140902(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20140902_PHEV1_85mm_UHE_96s6p_10_Parameter_20140902(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20141013_PHEV1_85mm_P_108s_2p_F_085_10_Parameter_20141013(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_Gen5_20141013_PHEV1_85mm_P_108s_2p_F_1_10_Parameter_20141013(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SE03_10_Parameter_2014_12_12(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SE07_10_Parameter_2014_02_06_SE07_94Ah_8v8_v2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2014-02-06_SE07_94Ah_8v8_v2&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2014-02-06_SE07_94Ah_8v8_v2&#10;[u'Record Data C010_SE07_20140204_Auslegung_8v8 is missing. ', u'Record Data G010_SE07_20140206_94Ah_est_SE03_C3_8v8_v2 is missing. ', u'Record Data T009_SE07_20140204_94Ah_est_SE03_C2_8v8_v2 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2014-02-06_SE07_94Ah_8v8_v2
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2014-02-06_SE07_94Ah_8v8_v2
+[u'Record Data C010_SE07_20140204_Auslegung_8v8 is missing. ', u'Record Data G010_SE07_20140206_94Ah_est_SE03_C3_8v8_v2 is missing. ', u'Record Data T009_SE07_20140204_94Ah_est_SE03_C2_8v8_v2 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SE07_10_Parameter_2014_10_28(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SE07_10_Parameter_2015_01_08(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2015-01-08&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2015-01-08&#10;[u'Record Data C012_SE07_20141211_Meta23 is missing. ', u'Record Data G011_SE07_20141211_B_v2 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2015-01-08
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SE07\10_Parameter\2015-01-08
+[u'Record Data C012_SE07_20141211_Meta23 is missing. ', u'Record Data G011_SE07_20141211_B_v2 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20130701(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130701&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130701&#10;[u'Record Data C008_SH05_20130701_C_LD_v2 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130701
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130701
+[u'Record Data C008_SH05_20130701_C_LD_v2 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20130702(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130702&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130702&#10;[u'Record Data C008_SH05_20130702_C_LD_v3 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130702
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130702
+[u'Record Data C008_SH05_20130702_C_LD_v3 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20130716(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716&#10;[u'Record Data C008_SH05_20130710_C_LD_v4 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716
+[u'Record Data C008_SH05_20130710_C_LD_v4 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20130716_ueberlast(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716_ueberlast&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716_ueberlast&#10;[u'Record Data C008_SH05_20130709_C_LD_ueberlast is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716_ueberlast
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20130716_ueberlast
+[u'Record Data C008_SH05_20130709_C_LD_ueberlast is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20131114(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114&#10;[u'Record Data C010_SH05_20130710_C_LD_v4 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114
+[u'Record Data C010_SH05_20130710_C_LD_v4 is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20131114_ueberlast(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114_ueberlast&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114_ueberlast&#10;[u'Record Data C010_SH05_20130709_C_LD_ueberlast is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114_ueberlast
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20131114_ueberlast
+[u'Record Data C010_SH05_20130709_C_LD_ueberlast is missing. ', u'Record Data G010_SH05_20130611_B2_Idep is missing. ', u'Record Data T009_SH05_20130402_B is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140319_Sportwagen_96s4p(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140319_Sportwagen_96s4p&#10;['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!', 'Document File Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140319_Sportwagen_96s4p&#10;[u'Record Data C010_SH05_20130710_C_LD_v4_Vetter_96s4p_HL is missing. ', u'Record Data C010_SH05_20130710_C_LD_v4_Vetter_96s4p_NB is missing. ', u'Record Data G010_SH05_20130611_B2_Idep_M_SpoWa_96s4p is missing. ', u'Record Data T009_SH05_20140313_M_SpoWa_96s4p is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140319_Sportwagen_96s4p
+['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!', 'Document File Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140319_Sportwagen_96s4p
+[u'Record Data C010_SH05_20130710_C_LD_v4_Vetter_96s4p_HL is missing. ', u'Record Data C010_SH05_20130710_C_LD_v4_Vetter_96s4p_NB is missing. ', u'Record Data G010_SH05_20130611_B2_Idep_M_SpoWa_96s4p is missing. ', u'Record Data T009_SH05_20140313_M_SpoWa_96s4p is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140331_Sportwagen_96s4p_z2019(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140331_Sportwagen_96s4p_z2019&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140331_Sportwagen_96s4p_z2019&#10;[u'Record Data C010_SH05_20130710_C_LD_v4_Vetter_96s4p_z2019_HL is missing. ', u'Record Data G010_SH05_20130611_B2_Idep_M_SpoWa_96s4p_z2019 is missing. ', u'Record Data T009_SH05_20140313_M_SpoWa_96s4p is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140331_Sportwagen_96s4p_z2019
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140331_Sportwagen_96s4p_z2019
+[u'Record Data C010_SH05_20130710_C_LD_v4_Vetter_96s4p_z2019_HL is missing. ', u'Record Data G010_SH05_20130611_B2_Idep_M_SpoWa_96s4p_z2019 is missing. ', u'Record Data T009_SH05_20140313_M_SpoWa_96s4p is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140505_P100_104s3p_track(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_104s3p_track&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_104s3p_track&#10;[u'Record Data C010_P100_20140505_HEV2013_6Ah_104s3p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140505_HEV2013_6Ah_104s3p_track_Konzeptuntersuchung is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_104s3p_track
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_104s3p_track
+[u'Record Data C010_P100_20140505_HEV2013_6Ah_104s3p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140505_HEV2013_6Ah_104s3p_track_Konzeptuntersuchung is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140505_P100_96s3p_track(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s3p_track&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s3p_track&#10;[u'Record Data C010_P100_20140505_HEV2013_6Ah_96s3p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140505_HEV2013_6Ah_96s3p_track_Konzeptuntersuchung is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s3p_track
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s3p_track
+[u'Record Data C010_P100_20140505_HEV2013_6Ah_96s3p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140505_HEV2013_6Ah_96s3p_track_Konzeptuntersuchung is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140505_P100_96s4p_track(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s4p_track&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s4p_track&#10;[u'Record Data C010_P100_20140505_HEV2013_6Ah_96s4p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140505_HEV2013_6Ah_96s4p_track_Konzeptuntersuchung is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s4p_track
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140505_P100_96s4p_track
+[u'Record Data C010_P100_20140505_HEV2013_6Ah_96s4p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140505_HEV2013_6Ah_96s4p_track_Konzeptuntersuchung is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140626_P100_96s3p_track(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s3p_track&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s3p_track&#10;[u'Record Data C010_P100_20140625_HEV2017_6_2Ah_96s3p_track_Konzeptuntersuchung_v1 is missing. ', u'Record Data T009_P100_20140625_HEV2017_6_2Ah_96s3p_track_Konzeptuntersuchung_v1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s3p_track
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s3p_track
+[u'Record Data C010_P100_20140625_HEV2017_6_2Ah_96s3p_track_Konzeptuntersuchung_v1 is missing. ', u'Record Data T009_P100_20140625_HEV2017_6_2Ah_96s3p_track_Konzeptuntersuchung_v1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140626_P100_96s4p_track(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s4p_track&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s4p_track&#10;[u'Record Data C010_P100_20140625_HEV2017_6_2Ah_96s4p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140625_HEV2017_6_2Ah_96s4p_track_Konzeptuntersuchung is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s4p_track
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SH05\10_Parameter\20140626_P100_96s4p_track
+[u'Record Data C010_P100_20140625_HEV2017_6_2Ah_96s4p_track_Konzeptuntersuchung is missing. ', u'Record Data T009_P100_20140625_HEV2017_6_2Ah_96s4p_track_Konzeptuntersuchung is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140806_P100_96s3p_track(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140806_P100_96s4p_track(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140829(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140904(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140919_Z16_Road_Gen1_5_96s4p(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140919_Z16_Road_Gen1_96s4p(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140922_Z16_Track_Gen1_96s4p(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SH05_10_Parameter_20140923_Z16_Track_Gen1_5_96s4p(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP01_10_Parameter_20130909(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP01\10_Parameter\20130909&#10;['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!', 'Document File Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP01\10_Parameter\20130909&#10;[u'Record Data C010_SP01_20130729_i490_LD is missing. ', u'Record Data C010_SP01_20130729_i490_P is missing. ', u'Record Data G010_SP01_20130122_C_2RC_Idep_v2 is missing. ', u'Record Data T010_SP01_20130805_C1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP01\10_Parameter\20130909
+['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!', 'Document File Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP01\10_Parameter\20130909
+[u'Record Data C010_SP01_20130729_i490_LD is missing. ', u'Record Data C010_SP01_20130729_i490_P is missing. ', u'Record Data G010_SP01_20130122_C_2RC_Idep_v2 is missing. ', u'Record Data T010_SP01_20130805_C1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP01_10_Parameter_20141127_i8NF(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2013_07_08_SP03_B1_i330P(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-07-08_SP03_B1_i330P&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-07-08_SP03_B1_i330P&#10;[u'Record Data C008_SP03_20130502_I330_P is missing. ', u'Record Data G010_SP03_20130322_B1_Idep_v2 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-07-08_SP03_B1_i330P
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-07-08_SP03_B1_i330P
+[u'Record Data C008_SP03_20130502_I330_P is missing. ', u'Record Data G010_SP03_20130322_B1_Idep_v2 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2013_09_17_SP03_B1_noiStufe_optCurLimit(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-09-17_SP03_B1_noiStufe_optCurLimit&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-09-17_SP03_B1_noiStufe_optCurLimit&#10;[u'Record Data C010_SP03_20130917_noIStufe_optCurLim is missing. ', u'Record Data G010_SP03_20130322_B1_Idep_v2 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-09-17_SP03_B1_noiStufe_optCurLimit
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-09-17_SP03_B1_noiStufe_optCurLimit
+[u'Record Data C010_SP03_20130917_noIStufe_optCurLim is missing. ', u'Record Data G010_SP03_20130322_B1_Idep_v2 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2013_11_08_SP03_B1_Zinkl_v2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-11-08_SP03_B1_Zinkl_v2&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-11-08_SP03_B1_Zinkl_v2&#10;[u'Record Data C010_SP03_20131108_Zinkl_v2_LD is missing. ', u'Record Data G010_SP03_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-11-08_SP03_B1_Zinkl_v2
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2013-11-08_SP03_B1_Zinkl_v2
+[u'Record Data C010_SP03_20131108_Zinkl_v2_LD is missing. ', u'Record Data G010_SP03_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2014_04_11(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-04-11&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-04-11&#10;[u'Record Data C010_SP03_20140325_i400_v2 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-04-11
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-04-11
+[u'Record Data C010_SP03_20140325_i400_v2 is missing. ', u'Record Data T010_SP03_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2014_07_16(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2014_08_29(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP03_10_Parameter_2014_12_12(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-12-12&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-12-12&#10;[u'Record Data C013_SP03_20141211_Meta23 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-12-12
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP03\10_Parameter\2014-12-12
+[u'Record Data C013_SP03_20141211_Meta23 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2013_09_20_SP05_UKL_B1_i310(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2013-09-20_SP05_UKL_B1_i310&#10;['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2013-09-20_SP05_UKL_B1_i310&#10;[u'Record Data C010_SP05_20130502_I310_LD is missing. ', u'Record Data C010_SP05_20130502_I310_P is missing. ', u'Record Data G010_SP05_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP05_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2013-09-20_SP05_UKL_B1_i310
+['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2013-09-20_SP05_UKL_B1_i310
+[u'Record Data C010_SP05_20130502_I310_LD is missing. ', u'Record Data C010_SP05_20130502_I310_P is missing. ', u'Record Data G010_SP05_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP05_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2014_02_07_SP05_Zinkl_2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-02-07_SP05_Zinkl_2&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-02-07_SP05_Zinkl_2&#10;[u'Record Data C010_SP05_20140206_Zinkl_2 is missing. ', u'Record Data G010_SP05_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP05_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-02-07_SP05_Zinkl_2
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-02-07_SP05_Zinkl_2
+[u'Record Data C010_SP05_20140206_Zinkl_2 is missing. ', u'Record Data G010_SP05_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP05_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2014_04_11(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-04-11&#10;['PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-04-11&#10;[u'Record Data C010_SP05_20140325_i330_v2 is missing. ', u'Record Data T010_SP05_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-04-11
+['PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP05\10_Parameter\2014-04-11
+[u'Record Data C010_SP05_20140325_i330_v2 is missing. ', u'Record Data T010_SP05_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2014_07_16(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2014_08_29(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2014_12_04(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP05_10_Parameter_2014_12_12(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20130821(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20130821&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20130821&#10;[u'Record Data C008_SP06_20120924_i190_P is missing. ', u'Record Data G010_SP06_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP06_20120810_PHEV1C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20130821
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20130821
+[u'Record Data C008_SP06_20120924_i190_P is missing. ', u'Record Data G010_SP06_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP06_20120810_PHEV1C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20131125(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20131125&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20131125&#10;[u'Record Data C010_SP06_20120924_i190_P is missing. ', u'Record Data G010_SP06_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP06_20120810_PHEV1C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20131125
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20131125
+[u'Record Data C010_SP06_20120924_i190_P is missing. ', u'Record Data G010_SP06_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP06_20120810_PHEV1C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_2014_02_11_SP06_Zinkl_2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\2014-02-11_SP06_Zinkl_2&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\2014-02-11_SP06_Zinkl_2&#10;[u'Record Data C010_SP06_20140210_Zinkl_2 is missing. ', u'Record Data G010_SP06_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\2014-02-11_SP06_Zinkl_2
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\2014-02-11_SP06_Zinkl_2
+[u'Record Data C010_SP06_20140210_Zinkl_2 is missing. ', u'Record Data G010_SP06_20130322_B1_Idep_v3 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_2014_12_12(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20140317(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140317&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140317&#10;[u'Record Data C010_SP06_20140317_i330 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140317
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140317
+[u'Record Data C010_SP06_20140317_i330 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20140411(,)" time="0.001"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140411&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140411&#10;[u'Record Data C010_SP06_20140317_i330_v3 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140411
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140411
+[u'Record Data C010_SP06_20140317_i330_v3 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20140623(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140623&#10;['PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140623&#10;[u'Record Data C010_SP06_20140317_i330_v3_BewertungDOD75 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140623
+['PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP06\10_Parameter\20140623
+[u'Record Data C010_SP06_20140317_i330_v3_BewertungDOD75 is missing. ', u'Record Data T010_SP06_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20140829(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP06_10_Parameter_20160716(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_2013_04_15(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-15&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-15&#10;[u'Record Data C006_SP05_20130311_I291_P is missing. ', u'Record Data G007_SP09_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T007_SP09_20120810_PHEV1C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-15
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-15
+[u'Record Data C006_SP05_20130311_I291_P is missing. ', u'Record Data G007_SP09_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T007_SP09_20120810_PHEV1C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_2013_04_23_HLib(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-23_HLib&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-23_HLib&#10;[u'Record Data C006_SP05_20130311_I291_P is missing. ', u'Record Data G006_SP09_20120612_PHEV1B2_LD_SOCdep is missing. ', u'Record Data T007_SP09_20120810_PHEV1C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-23_HLib
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\2013-04-23_HLib
+[u'Record Data C006_SP05_20130311_I291_P is missing. ', u'Record Data G006_SP09_20120612_PHEV1B2_LD_SOCdep is missing. ', u'Record Data T007_SP09_20120810_PHEV1C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_20130821(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20130821&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20130821&#10;[u'Record Data C008_SP05_20130311_I291_P is missing. ', u'Record Data G010_SP09_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP09_20120810_PHEV1C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20130821
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20130821
+[u'Record Data C008_SP05_20130311_I291_P is missing. ', u'Record Data G010_SP09_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP09_20120810_PHEV1C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_20131125(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20131125&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20131125&#10;[u'Record Data C010_SP05_20130311_I291_P is missing. ', u'Record Data G010_SP09_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP09_20120810_PHEV1C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20131125
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20131125
+[u'Record Data C010_SP05_20130311_I291_P is missing. ', u'Record Data G010_SP09_20130122_PHEV1_C_2RC_Idep is missing. ', u'Record Data T010_SP09_20120810_PHEV1C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_2014_12_12(,)" time="0.001"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_20140411(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140411&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140411&#10;[u'Record Data C010_SP09_20140325_SP05_i330_v2 is missing. ', u'Record Data T010_SP09_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140411
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140411
+[u'Record Data C010_SP09_20140325_SP05_i330_v2 is missing. ', u'Record Data T010_SP09_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_20140526(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140526&#10;['PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140526&#10;[u'Record Data C010_SP09_20140325_SP05_i330_v2_DoD_72 is missing. ', u'Record Data T010_SP09_20130702_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140526
+['PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP09\10_Parameter\20140526
+[u'Record Data C010_SP09_20140325_SP05_i330_v2_DoD_72 is missing. ', u'Record Data T010_SP09_20130702_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP09_10_Parameter_20140829(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP11_10_Parameter_131204(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP11\10_Parameter\131204&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP11\10_Parameter\131204&#10;[u'Record Data C010_SP11_20130729_i290_LD is missing. ', u'Record Data G010_SP11_20130923_A_Idep is missing. ', u'Record Data T010_SP11_20130918_B0 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP11\10_Parameter\131204
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP11\10_Parameter\131204
+[u'Record Data C010_SP11_20130729_i290_LD is missing. ', u'Record Data G010_SP11_20130923_A_Idep is missing. ', u'Record Data T010_SP11_20130918_B0 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP11_10_Parameter_2014_08_29_SP11(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP11_10_Parameter_2014_12_12(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20130909(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20130909&#10;['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!', 'Document File Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20130909&#10;[u'Record Data C010_SP12_20130808_SP06i300_LD is missing. ', u'Record Data C010_SP12_20130808_SP06i300_P is missing. ', u'Record Data G010_SP12_20130808_PHEV1plus_v2 is missing. ', u'Record Data T010_SP12_20130808_SP06_B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20130909
+['Multiple Controller Data found!', 'Member Data Error!', 'FMU Data missing!', 'PCP Data missing!', 'Document File Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20130909
+[u'Record Data C010_SP12_20130808_SP06i300_LD is missing. ', u'Record Data C010_SP12_20130808_SP06i300_P is missing. ', u'Record Data G010_SP12_20130808_PHEV1plus_v2 is missing. ', u'Record Data T010_SP12_20130808_SP06_B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140131_34Ah_BMWspez(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_BMWspez&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_BMWspez&#10;[u'Record Data C010_SP12_20140130_Zinkl_2 is missing. ', u'Record Data G010_SP12_20140130_34Ah_BMWspez is missing. ', u'Record Data T010_SP12_20140130_34Ah_BMWspez is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_BMWspez
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_BMWspez
+[u'Record Data C010_SP12_20140130_Zinkl_2 is missing. ', u'Record Data G010_SP12_20140130_34Ah_BMWspez is missing. ', u'Record Data T010_SP12_20140130_34Ah_BMWspez is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140131_34Ah_Standard(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_Standard&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_Standard&#10;[u'Record Data C010_SP12_20140130_Zinkl_2 is missing. ', u'Record Data G010_SP12_20140130_34Ah_Standard is missing. ', u'Record Data T010_SP12_20140130_34Ah_Standard is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_Standard
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_34Ah_Standard
+[u'Record Data C010_SP12_20140130_Zinkl_2 is missing. ', u'Record Data G010_SP12_20140130_34Ah_Standard is missing. ', u'Record Data T010_SP12_20140130_34Ah_Standard is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140131_37Ah_Standard(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_37Ah_Standard&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_37Ah_Standard&#10;[u'Record Data C010_SP12_20140130_Zinkl_2 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_37Ah_Standard
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140131_37Ah_Standard
+[u'Record Data C010_SP12_20140130_Zinkl_2 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140211_37Ah_Standard_i300(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140211_37Ah_Standard_i300&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140211_37Ah_Standard_i300&#10;[u'Record Data C010_SP12_20130808_SP06i300_LD_v2 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140211_37Ah_Standard_i300
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140211_37Ah_Standard_i300
+[u'Record Data C010_SP12_20130808_SP06i300_LD_v2 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140305_34Ah_BMWspez_DoD_78(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_34Ah_BMWspez_DoD_78&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_34Ah_BMWspez_DoD_78&#10;[u'Record Data C010_SP12_20140305_Zinkl_2_DoD_78 is missing. ', u'Record Data G010_SP12_20140130_34Ah_BMWspez_v2 is missing. ', u'Record Data T010_SP12_20140130_34Ah_BMWspez is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_34Ah_BMWspez_DoD_78
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_34Ah_BMWspez_DoD_78
+[u'Record Data C010_SP12_20140305_Zinkl_2_DoD_78 is missing. ', u'Record Data G010_SP12_20140130_34Ah_BMWspez_v2 is missing. ', u'Record Data T010_SP12_20140130_34Ah_BMWspez is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140305_37Ah_Standard_DoD_78(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_37Ah_Standard_DoD_78&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_37Ah_Standard_DoD_78&#10;[u'Record Data C010_SP12_20140305_Zinkl_2_DoD_78 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard_v2 is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_37Ah_Standard_DoD_78
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140305_37Ah_Standard_DoD_78
+[u'Record Data C010_SP12_20140305_Zinkl_2_DoD_78 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard_v2 is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140328_37Ah_Standard_v2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140328_37Ah_Standard_v2&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140328_37Ah_Standard_v2&#10;[u'Record Data C010_SP12_20140130_Zinkl_2_v2 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard_v2 is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140328_37Ah_Standard_v2
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140328_37Ah_Standard_v2
+[u'Record Data C010_SP12_20140130_Zinkl_2_v2 is missing. ', u'Record Data G010_SP12_20140130_37Ah_Standard_v2 is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140331_37Ah_Standard_v2_DOD_72(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140331_37Ah_Standard_v2_DOD_72&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140331_37Ah_Standard_v2_DOD_72&#10;[u'Record Data C010_SP12_20140331_Zinkl_2_v2_DoD_72 is missing. ', u'Record Data G010_SP12_20140331_37Ah_Standard_v2_DoD_72 is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140331_37Ah_Standard_v2_DOD_72
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP12\10_Parameter\20140331_37Ah_Standard_v2_DOD_72
+[u'Record Data C010_SP12_20140331_Zinkl_2_v2_DoD_72 is missing. ', u'Record Data G010_SP12_20140331_37Ah_Standard_v2_DoD_72 is missing. ', u'Record Data T010_SP12_20140130_37Ah_Standard is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140829_37Ah_DOD_72(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP12_10_Parameter_20140918_37Ah_DOD_72(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP40_10_Parameter_2013_11_18_SP40(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP40\10_Parameter\2013-11-18_SP40&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP40\10_Parameter\2013-11-18_SP40&#10;[u'Record Data C010_SP40_20131118_derSP06i300_P is missing. ', u'Record Data G010_SP40_20131118_derSP06B1_Idep_v9 is missing. ', u'Record Data T010_SP40_20131118_derSP06B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP40\10_Parameter\2013-11-18_SP40
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP40\10_Parameter\2013-11-18_SP40
+[u'Record Data C010_SP40_20131118_derSP06i300_P is missing. ', u'Record Data G010_SP40_20131118_derSP06B1_Idep_v9 is missing. ', u'Record Data T010_SP40_20131118_derSP06B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP41_10_Parameter_2013_11_18_SP41(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP41\10_Parameter\2013-11-18_SP41&#10;['PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP41\10_Parameter\2013-11-18_SP41&#10;[u'Record Data C010_SP41_20131118_derSP06i300_P is missing. ', u'Record Data G010_SP41_20131118_derSP06B1_Idep_v9 is missing. ', u'Record Data T010_SP41_20131118_derSP06B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP41\10_Parameter\2013-11-18_SP41
+['PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP41\10_Parameter\2013-11-18_SP41
+[u'Record Data C010_SP41_20131118_derSP06i300_P is missing. ', u'Record Data G010_SP41_20131118_derSP06B1_Idep_v9 is missing. ', u'Record Data T010_SP41_20131118_derSP06B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP41_10_Parameter_2014_08_04_SP41_DOD70(,)" time="0.001"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP41_10_Parameter_2014_08_04_SP41_DOD75(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP41_10_Parameter_2014_08_08_SP41(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP42_10_Parameter_2013_11_18_SP42(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP42\10_Parameter\2013-11-18_SP42&#10;['FMU Data missing!', 'PCP Data missing!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP42\10_Parameter\2013-11-18_SP42&#10;[u'Record Data C010_SP42_20131118_derSP06i300_P is missing. ', u'Record Data G010_SP42_20131118_derSP06B1_Idep_v9 is missing. ', u'Record Data T010_SP42_20131118_derSP06B1 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP42\10_Parameter\2013-11-18_SP42
+['FMU Data missing!', 'PCP Data missing!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\SP42\10_Parameter\2013-11-18_SP42
+[u'Record Data C010_SP42_20131118_derSP06i300_P is missing. ', u'Record Data G010_SP42_20131118_derSP06B1_Idep_v9 is missing. ', u'Record Data T010_SP42_20131118_derSP06B1 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP42_10_Parameter_2014_08_04_SP42_DOD70(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP42_10_Parameter_2014_08_04_SP42_DOD75(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_02_ElectricEnergyStorageSystem_02_ComponentData_SP42_10_Parameter_2014_08_08_SP42(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_0000_Musterordner___Generation_oder_Hersteller_Typ_Bezeichnung_Freitext_10_Parameter_301230_Dummy(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\0000_Musterordner - Generation oder Hersteller_Typ_Bezeichnung_Freitext\10_Parameter\301230_Dummy&#10;[]&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\0000_Musterordner - Generation oder Hersteller_Typ_Bezeichnung_Freitext\10_Parameter\301230_Dummy&#10;[u'Record Data C003_Dummy is missing. ', u'Record Data G002_Dummy is missing. ', u'Record Data L002_Dummy_EM is missing. ', u'Record Data L002_Dummy_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\0000_Musterordner - Generation oder Hersteller_Typ_Bezeichnung_Freitext\10_Parameter\301230_Dummy
+[]
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\0000_Musterordner - Generation oder Hersteller_Typ_Bezeichnung_Freitext\10_Parameter\301230_Dummy
+[u'Record Data C003_Dummy is missing. ', u'Record Data G002_Dummy is missing. ', u'Record Data L002_Dummy_EM is missing. ', u'Record Data L002_Dummy_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_12poles_EMP242clone_10_Parameter_140602_Version2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_121221_Messung_P_fstand6(,)" time="0.001"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\121221_Messung_Püfstand6&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\121221_Messung_Püfstand6&#10;[u'Record Data C003_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ', u'Record Data L002_EMP120p66_20121221_B3_REME_C is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\121221_Messung_Püfstand6
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\121221_Messung_Püfstand6
+[u'Record Data C003_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ', u'Record Data L002_EMP120p66_20121221_B3_REME_C is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_130110_B3_rEME_C1(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130110_B3_rEME_C1&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130110_B3_rEME_C1&#10;[u'Record Data C003_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ', u'Record Data L002_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130110_B3_rEME_C1
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130110_B3_rEME_C1
+[u'Record Data C003_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ', u'Record Data L002_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_130204_B3_rEME_C2_0p5Kabel(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_0p5Kabel&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_0p5Kabel&#10;[u'Record Data C003_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_0p5Kabel
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_0p5Kabel
+[u'Record Data C003_EMP120p66_20130122_B3_with_REME_C1_BoschTB6 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_130204_B3_rEME_C2_AC_DCKabel(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_AC_DCKabel&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_AC_DCKabel&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_AC_DCKabel
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_AC_DCKabel
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_130204_B3_rEME_C2_no_DCKabel(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_DCKabel&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_DCKabel&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_DCKabel
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_DCKabel
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_130204_B3_rEME_C2_no_Kabel(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_Kabel&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_Kabel&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_Kabel
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130204_B3_rEME_C2_no_Kabel
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_130515_neue_MaxKL_I12(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130515_neue_MaxKL_I12&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130515_neue_MaxKL_I12&#10;[u'Record Data C003_EMP120p66_20130515_B3_REME_C_I12_maxKL_v2 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130515_neue_MaxKL_I12
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Denso_PSM_EMP12066_HVSGR\10_Parameter\130515_neue_MaxKL_I12
+[u'Record Data C003_EMP120p66_20130515_B3_REME_C_I12_maxKL_v2 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Denso_PSM_EMP12066_HVSGR_10_Parameter_140922_B3_REME_C1_I502(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140206_B2_LEB452_A_F45_60kw_Bewertung(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_60kw_Bewertung&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_60kw_Bewertung&#10;[u'Record Data C003_EMP156p162_20140218_B2_F45_60kw_Bewertung is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ', u'Record Data L002_EMP156p162_20130313_B2_F45_LEB452_A is missing. ', u'Record Data L002_LEB452_20130313_A_EMP156p162_B2_F45 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_60kw_Bewertung
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_60kw_Bewertung
+[u'Record Data C003_EMP156p162_20140218_B2_F45_60kw_Bewertung is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ', u'Record Data L002_EMP156p162_20130313_B2_F45_LEB452_A is missing. ', u'Record Data L002_LEB452_20130313_A_EMP156p162_B2_F45 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140206_B2_LEB452_A_F45_65kw_Bewertung(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_65kw_Bewertung&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_65kw_Bewertung&#10;[u'Record Data C003_EMP156p162_20140206_B2_F45_65kw_Bewertung is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ', u'Record Data L002_EMP156p162_20130313_B2_F45_LEB452_A is missing. ', u'Record Data L002_LEB452_20130313_A_EMP156p162_B2_F45 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_65kw_Bewertung
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140206_B2_LEB452_A_F45_65kw_Bewertung
+[u'Record Data C003_EMP156p162_20140206_B2_F45_65kw_Bewertung is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ', u'Record Data L002_EMP156p162_20130313_B2_F45_LEB452_A is missing. ', u'Record Data L002_LEB452_20130313_A_EMP156p162_B2_F45 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140221_B2_LEB452_A_F45_70kw_Bewertung(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140221_B2_LEB452_A_F45_70kw_Bewertung&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140221_B2_LEB452_A_F45_70kw_Bewertung&#10;[u'Record Data C003_EMP156p162_20140221_B2_F45_70kw_Bewertung is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ', u'Record Data L002_EMP156p162_20130313_B2_F45_LEB452_A is missing. ', u'Record Data L002_LEB452_20130313_A_EMP156p162_B2_F45 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140221_B2_LEB452_A_F45_70kw_Bewertung
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140221_B2_LEB452_A_F45_70kw_Bewertung
+[u'Record Data C003_EMP156p162_20140221_B2_F45_70kw_Bewertung is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ', u'Record Data L002_EMP156p162_20130313_B2_F45_LEB452_A is missing. ', u'Record Data L002_LEB452_20130313_A_EMP156p162_B2_F45 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140513_C1_LE452D_B2_F45_F60(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F45_F60&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F45_F60&#10;[u'Record Data C003_EMP156p162_20140512_C1_F45_F60 is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F45_F60
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F45_F60
+[u'Record Data C003_EMP156p162_20140512_C1_F45_F60 is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140513_C1_LE452D_B2_F49(,)" time="0.001"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F49&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F49&#10;[u'Record Data C003_EMP156p162_20140512_C1_F49 is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F49
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140513_C1_LE452D_B2_F49
+[u'Record Data C003_EMP156p162_20140512_C1_F49 is missing. ', u'Record Data G002_EMP156p162_20130313_B2_F45_F48_LEB452 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140603_C1_LE452D_B2_F45_F60_I390(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F45_F60_I390&#10;['SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F45_F60_I390&#10;[u'Record Data C003_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390 is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F45_F60_I390
+['SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F45_F60_I390
+[u'Record Data C003_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390 is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F45_F60_I390_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140603_C1_LE452D_B2_F49_I390(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F49_I390&#10;['SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F49_I390&#10;[u'Record Data C003_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F49_I390
+['SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140603_C1_LE452D_B2_F49_I390
+[u'Record Data C003_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140605_C1_LE452D_B2_F49_I390_100Kw(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140605_C1_LE452D_B2_F49_I390_100Kw&#10;['SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140605_C1_LE452D_B2_F49_I390_100Kw&#10;[u'Record Data C003_Gen3_PSM_EMP156162_140605_C1_LE452D_B2_F49_I390_100Kw is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140605_C1_LE452D_B2_F49_I390_100Kw
+['SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140605_C1_LE452D_B2_F49_I390_100Kw
+[u'Record Data C003_Gen3_PSM_EMP156162_140605_C1_LE452D_B2_F49_I390_100Kw is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140624_C1_LE452D_B2_F45_F60_I390_65kW(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F45_F60_I390_65kW&#10;[]&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F45_F60_I390_65kW&#10;[u'Record Data C003_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F45_F60_I390_65kW
+[]
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F45_F60_I390_65kW
+[u'Record Data C003_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F45_F60_I390_65kW_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140624_C1_LE452D_B2_F49_I390_70kW(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F49_I390_70kW&#10;[]&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F49_I390_70kW&#10;[u'Record Data C003_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F49_I390_70kW
+[]
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140624_C1_LE452D_B2_F49_I390_70kW
+[u'Record Data C003_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140624_C1_LE452D_B2_F49_I390_70kW_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140819_C1_LE452D_B2_F49_I390_Melissa(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140819_C1_LE452D_B2_F49_I390_Melissa&#10;['SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140819_C1_LE452D_B2_F49_I390_Melissa&#10;[u'Record Data C003_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Melissa is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Inv is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140819_C1_LE452D_B2_F49_I390_Melissa
+['SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP156162\10_Parameter\140819_C1_LE452D_B2_F49_I390_Melissa
+[u'Record Data C003_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Melissa is missing. ', u'Record Data G002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390 is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_EM is missing. ', u'Record Data L002_Gen3_PSM_EMP156162_140603_C1_LE452D_B2_F49_I390_Inv is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140930_C1_LEB452_B2_F45_F49(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140930_C1_LEB452_B2_F45_F60_165Nm_65KW(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_140930_C1_LEB452_B2_F49_M13_165Nm_70KW(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_141021_EMP156_SK_105(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP156162_10_Parameter_141021_EMP156_SK_75(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_130220_Serienstand_125Kw(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130220_Serienstand_125Kw&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130220_Serienstand_125Kw&#10;[u'Record Data L002_LE125_20130226_C2_EMP242_130_D_FU_8_16_PST706 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130220_Serienstand_125Kw
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130220_Serienstand_125Kw
+[u'Record Data L002_LE125_20130226_C2_EMP242_130_D_FU_8_16_PST706 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_130527_Serienstand_130kW(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130527_Serienstand_130kW&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130527_Serienstand_130kW&#10;[u'Record Data C002_EMP242_130_20130326_D_LE125C2_maxKLv3 is missing. ', u'Record Data L001_EMP242_130_20130717_D_LE125_C2_FU_8_16_PST706 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130527_Serienstand_130kW
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130527_Serienstand_130kW
+[u'Record Data C002_EMP242_130_20130326_D_LE125C2_maxKLv3 is missing. ', u'Record Data L001_EMP242_130_20130717_D_LE125_C2_FU_8_16_PST706 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_130612_Serienstand_125Kw_detailed(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130612_Serienstand_125Kw_detailed&#10;['Multiple Controller Data found!', 'General Data Error!', 'Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130612_Serienstand_125Kw_detailed&#10;[u'Record Data C002_LE125_BEV13_I503_I01_20131106_8_16 is missing. ', u'Record Data G001_SimpleInverter is missing. ', u'Record Data T106_Thermal_HP2_800A_650V_20130830 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130612_Serienstand_125Kw_detailed
+['Multiple Controller Data found!', 'General Data Error!', 'Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\130612_Serienstand_125Kw_detailed
+[u'Record Data C002_LE125_BEV13_I503_I01_20131106_8_16 is missing. ', u'Record Data G001_SimpleInverter is missing. ', u'Record Data T106_Thermal_HP2_800A_650V_20130830 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140616_LEB125_XETK_03Blech_origKF_PKR2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140617_LEB125_ETK_03Blech_modifiziert_PKR2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140625_LEB125_011040004_origKF_02erBl_PKR2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140625_LEB125_i503_E3DP403_02erBl_Serie_PKR2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140829_LEB125_AE02_I231_070(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\140829_LEB125_AE02_I231_070&#10;['Multiple Controller Data found!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\140829_LEB125_AE02_I231_070&#10;[u'Record Data C002_Gen3_PSM_EMP242130_140829_LEB125_AE02_I231_070 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\140829_LEB125_AE02_I231_070
+['Multiple Controller Data found!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen3_PSM_EMP242130\10_Parameter\140829_LEB125_AE02_I231_070
+[u'Record Data C002_Gen3_PSM_EMP242130_140829_LEB125_AE02_I231_070 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140829_LEB125_PKR2_XCP_I410_0144002(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140912_LEB125_AE02_I231_250Nm(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_140912_LEB125_PKR2_XCP_I410_250Nm(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_141021_LEB125_PKR2_03Blech(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_10_Parameter_141021_LEB125_PKR2_03Blech_optiLager(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_430A_10_Parameter_140213_Erste_Abschaetzung(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_Dyn_10_Parameter_140602_LCI1dyn(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen3_PSM_EMP242130_Dyn_10_Parameter_140605_LCI1dyn_unlimited(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen4_PSM_LINF_10_Parameter_130730_VShape_Lang_UKL1_2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130730_VShape_Lang_UKL1_2&#10;['Folder is empty (except &quot;work&quot;)!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130730_VShape_Lang_UKL1_2&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130730_VShape_Lang_UKL1_2
+['Folder is empty (except "work")!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130730_VShape_Lang_UKL1_2
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen4_PSM_LINF_10_Parameter_130731_EMP156_Lang_eREV_INF_maxKL(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130731_EMP156_Lang_eREV_INF_maxKL&#10;['Folder is empty (except &quot;work&quot;)!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130731_EMP156_Lang_eREV_INF_maxKL&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130731_EMP156_Lang_eREV_INF_maxKL
+['Folder is empty (except "work")!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen4_PSM_LINF\10_Parameter\130731_EMP156_Lang_eREV_INF_maxKL
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_ASM_HEAT_klein_HDZ_30krpm_10_Parameter_140716_Initialdatenstand_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_ASM_HEAT_klein_HDZ_30krpm_10_Parameter_140725_Uebergabe_PK_Q4_2014(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_ASM_HEAT_klein_HDZ_30krpm\10_Parameter\140725_Uebergabe_PK_Q4_2014&#10;['Controller Data missing!', 'General Data Error!', 'Loss Data Error!', 'Inverter Loss Data Error!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_ASM_HEAT_klein_HDZ_30krpm\10_Parameter\140725_Uebergabe_PK_Q4_2014&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_ASM_HEAT_klein_HDZ_30krpm\10_Parameter\140725_Uebergabe_PK_Q4_2014
+['Controller Data missing!', 'General Data Error!', 'Loss Data Error!', 'Inverter Loss Data Error!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_ASM_HEAT_klein_HDZ_30krpm\10_Parameter\140725_Uebergabe_PK_Q4_2014
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_ASM_HEAT_klein_HDZ_30krpm_10_Parameter_140811_Ueberarb_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_ASM_HEAT_klein_HDZ_30krpm_10_Parameter_140813_DatenstandJulianFuerLT(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_PSM_EM46B_10_Parameter_140613_HTM_EZW(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_PSM_EM46B_10_Parameter_140722_Initial_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_PSM_HEAT_high_10_Parameter_141028_HEAT_high_190kW_600A_initial(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_PSM_HEAT_klein_konventionell_10_Parameter_140901_Initialdaten_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_PSM_HEAT_klein_konventionell_10_Parameter_140904_Uebergabe_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_EMS242130_10_Parameter_130702_FEAAM(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_SSM_EMS242130\10_Parameter\130702_FEAAM&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_SSM_EMS242130\10_Parameter\130702_FEAAM&#10;[u'Record Data C003_InhouseSSM_20131204_8polig_reduced_275Nm_131202 is missing. ', u'Record Data G002_InhouseSSM_20131204_8polig_reduced_131202 is missing. ', u'Record Data L002_Infineon_20131209_InhouseSSM_8polig_reduced is missing. ', u'Record Data L002_InhouseSSM_20131206_8polig_Infineon_reduced is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_SSM_EMS242130\10_Parameter\130702_FEAAM
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Gen5_SSM_EMS242130\10_Parameter\130702_FEAAM
+[u'Record Data C003_InhouseSSM_20131204_8polig_reduced_275Nm_131202 is missing. ', u'Record Data G002_InhouseSSM_20131204_8polig_reduced_131202 is missing. ', u'Record Data L002_Infineon_20131209_InhouseSSM_8polig_reduced is missing. ', u'Record Data L002_InhouseSSM_20131206_8polig_Infineon_reduced is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_EMS242130_10_Parameter_140226_Skalierung_320Nm(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_HEAT_gross_konv_430Nm_10_Parameter_140721_Initialdatenstand_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_HEAT_gross_konv_430Nm_10_Parameter_140725_Uebergabe_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_HEAT_gross_konv_430Nm_10_Parameter_140811_Ueberarb_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_HEAT_gross_konv_610Nm_10_Parameter_140721_Initialdatenstand_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_HEAT_gross_konv_610Nm_10_Parameter_140725_Uebergabe_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Gen5_SSM_HEAT_gross_konv_610Nm_10_Parameter_140811_Ueberarb_PK_Q4_2014(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Nissan_PSM_Leaf_10_Parameter_130528_FEV_Messungen(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_SEW_PSM_EMS254145_10_Parameter_130911_A1_LE650_simuliert_Infineon(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\SEW_PSM_EMS254145\10_Parameter\130911_A1_LE650_simuliert_Infineon&#10;['Loss Data Error!', 'Inverter Loss Data Error!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\SEW_PSM_EMS254145\10_Parameter\130911_A1_LE650_simuliert_Infineon&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\SEW_PSM_EMS254145\10_Parameter\130911_A1_LE650_simuliert_Infineon
+['Loss Data Error!', 'Inverter Loss Data Error!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\SEW_PSM_EMS254145\10_Parameter\130911_A1_LE650_simuliert_Infineon
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Siemens_ASM_10_Parameter_140128_Messungen_PST709(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Siemens_ASM\10_Parameter\140128_Messungen_PST709&#10;['Loss Data Error!', 'Inverter Loss Data Error!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Siemens_ASM\10_Parameter\140128_Messungen_PST709&#10;[u'Record Data C002_SiemensASM_20140207_v1p6_Messung_PST09_140204 is missing. ', u'Record Data L002_SiemensASM_20131212_v16_Infineon_131209 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Siemens_ASM\10_Parameter\140128_Messungen_PST709
+['Loss Data Error!', 'Inverter Loss Data Error!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Siemens_ASM\10_Parameter\140128_Messungen_PST709
+[u'Record Data C002_SiemensASM_20140207_v1p6_Messung_PST09_140204 is missing. ', u'Record Data L002_SiemensASM_20131212_v16_Infineon_131209 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Tesla_ASM_Model_S_10_Parameter_141009_Messung_Hofer(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Valeo_PSM_EMP24050_REX_10_Parameter_130222_B3_REME(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130222_B3_REME&#10;['Loss Data Error!', 'Inverter Loss Data Error!']&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130222_B3_REME&#10;[u'Record Data C003_EMP240p50_20130416_C_REME_C is missing. ', u'Record Data L002_EMP240p50_20130313_C_REX_106DegC_REME_C is missing. ', u'Record Data L002_REME_20130313_C_EMP240p50_C_106DegC is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130222_B3_REME
+['Loss Data Error!', 'Inverter Loss Data Error!']
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130222_B3_REME
+[u'Record Data C003_EMP240p50_20130416_C_REME_C is missing. ', u'Record Data L002_EMP240p50_20130313_C_REX_106DegC_REME_C is missing. ', u'Record Data L002_REME_20130313_C_EMP240p50_C_106DegC is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Valeo_PSM_EMP24050_REX_10_Parameter_130705_C_REME_C_maxKL_I490(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130705_C_REME_C_maxKL_I490&#10;['Loss Data Error!', 'Inverter Loss Data Error!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130705_C_REME_C_maxKL_I490&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130705_C_REME_C_maxKL_I490
+['Loss Data Error!', 'Inverter Loss Data Error!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\130705_C_REME_C_maxKL_I490
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Valeo_PSM_EMP24050_REX_10_Parameter_140429_C_REME_C_maxKL_I490_v2(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\140429_C_REME_C_maxKL_I490_v2&#10;['Loss Data Error!', 'Inverter Loss Data Error!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\140429_C_REME_C_maxKL_I490_v2&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\140429_C_REME_C_maxKL_I490_v2
+['Loss Data Error!', 'Inverter Loss Data Error!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Valeo_PSM_EMP24050_REX\10_Parameter\140429_C_REME_C_maxKL_I490_v2
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Z16_PSM_EMP156190_10_Parameter_141013_Bedatung_360V_Kennfeld(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Z16_PSM_EMP156190_10_Parameter_20140617_Initialbedatung_SimplEdrive(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140617_Initialbedatung_SimplEdrive&#10;['Folder is empty (except &quot;work&quot;)!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140617_Initialbedatung_SimplEdrive&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140617_Initialbedatung_SimplEdrive
+['Folder is empty (except "work")!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140617_Initialbedatung_SimplEdrive
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Z16_PSM_EMP156190_10_Parameter_20140808_Kombinierte_Bedatung_incl_HVSGR(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140808_Kombinierte_Bedatung_incl_HVSGR&#10;['Folder is empty (except &quot;work&quot;)!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140808_Kombinierte_Bedatung_incl_HVSGR&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140808_Kombinierte_Bedatung_incl_HVSGR
+['Folder is empty (except "work")!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\Z16_PSM_EMP156190\10_Parameter\20140808_Kombinierte_Bedatung_incl_HVSGR
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_Z16_PSM_EMP242130_Basis_10_Parameter_141010_Kennfelder_EMP242(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_ZF_PSM_EMP26970_10_Parameter_120719_REVO_K11_Update(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\120719_REVO_K11_Update&#10;['Folder is empty (except &quot;work&quot;)!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\120719_REVO_K11_Update&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\120719_REVO_K11_Update
+['Folder is empty (except "work")!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\120719_REVO_K11_Update
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_ZF_PSM_EMP26970_10_Parameter_130321_REVO_K11_Update_v1_30s_LE125D(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\130321_REVO_K11_Update_v1_30s_LE125D&#10;['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\130321_REVO_K11_Update_v1_30s_LE125D&#10;[u'Record Data C003_EMP269p70_20130321_REV0_with_LE125Dx_Update_K11 is missing. ']"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\130321_REVO_K11_Update_v1_30s_LE125D
+['Loss Data Error!', 'Inverter Loss Data Error!', 'SDF Data Error', 'SDF Interpolated Data Error']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\130321_REVO_K11_Update_v1_30s_LE125D
+[u'Record Data C003_EMP269p70_20130321_REV0_with_LE125Dx_Update_K11 is missing. ']
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_ZF_PSM_EMP26970_10_Parameter_140527_10KHz_210V_390V_Messung(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_ZF_PSM_EMP26970_10_Parameter_140527_10KHz_Extrap_210V_300V(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_ZF_PSM_EMP26970_10_Parameter_140709_Abschaetzung_5_10KHz_Sim_Mess(,)" time="0.000"><error type="exceptions.Exception" message="&#10;&#10;Error:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\140709_Abschaetzung_5_10KHz_Sim_Mess&#10;['Folder is empty (except &quot;work&quot;)!']&#10;&#10;Warning:&#10;file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\140709_Abschaetzung_5_10KHz_Sim_Mess&#10;[]"><![CDATA[Traceback (most recent call last):
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\unittest\case.py", line 331, in run
+    testMethod()
+  File "C:\dongping.xie\softwares\WinPython-32bit-2.7.6.4\python-2.7.6\lib\site-packages\nose-1.3.3-py2.7.egg\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\EdrisAscent\EDRISAuto\trunk\EDRIS_Management\EDRIS_Management_Tools_devel\AutoPoller\EdrisDBChecker\__init__.py", line 17, in check_exception
+    raise Exception(arg_dict['exception_value'])
+Exception: 
+
+Error:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\140709_Abschaetzung_5_10KHz_Sim_Mess
+['Folder is empty (except "work")!']
+
+Warning:
+file:///C:\edris\EDRIS_database\ComponentData\04_EM\02_ComponentData\ZF_PSM_EMP26970\10_Parameter\140709_Abschaetzung_5_10KHz_Sim_Mess
+[]
+]]></error></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_04_EM_02_ComponentData_ZF_PSM_EMP26970_10_Parameter_140807_REVO_K30_LE125Dx(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_BMW_LE125LD_10_Parameter_121011_LE125LD_C001_BEV13_L003_C0Rev4(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_BMW_LE125LD_1Stufig_10_Parameter_20140205_LE125LD_1Stufig_C001_BEV13_L003_A0(,)" time="0.001"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_BMW_LE125LD_1Stufig_10_Parameter_20140909_LE125LD_1Stufig_C001_BEV13_L003_C0Rev3(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_BMW_LEB450D_10_Parameter_120606_LEB450D_C001_BEV13_L003_A0(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_BWM_LEB452_10_Parameter_130710_LEB452_C001_BEV13_L003_V1(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_DualerSpeicherSupercap_10_Parameter_130409_DualerSpeicher_C001_Unlimited_L003_Z0(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_F30_LV_10_Parameter_130710_F30_C001_BEV13_L003_F30PHEVLV(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_G11_HV_10_Parameter_130710_G11_C001_BEV13_L003_G11HV(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_05_DCDC_02_ComponentData_H2plus_10_Parameter_130312_H2plus_C001_Unlimited_L003_120kW(,)" time="0.001"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_BMW_LE125_10_Parameter_121127_SLE_C001_SLE_L002_C0Rev4(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_BMW_LE125_10_Parameter_140929_SLE_C001_D0_SLE_L002_C0Rev4(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_DC_ideal_10_Parameter_120618_50kW(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_DC_ideal_10_Parameter_121107_22kW(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_DC_ideal_10_Parameter_141205_135kW(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_Delphi_SLE_B35_10_Parameter_130205_DELPHI_C001_B2_L002_B2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_Eltek_OBC35_10_Parameter_130211_OBC35up_C001_L002_B2(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_MetaSystem_UCX_10_Parameter_130502_UCX_C001_B3_L002_C(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_MetaSystem_UCX_10_Parameter_130502_UCX_C001_C0_L002_C(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_06_Charger_02_ComponentData_MetaSystem_UCX_II_10_Parameter_140206_UCX2_C001_Virtual_L002_Virtual(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisB3L007_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisB3L008_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3C001_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3C002_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3C002_10_Parameter_141016_Update(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3C003_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3C004_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3C005_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3F002_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_07_WireHarness_02_ComponentData_edrisP3L001_10_Parameter_141016_InitialStand(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_10_SuperCap_02_ComponentData_Skeleton_SkelCap_10_Parameter_141008_Skelcap10400(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_10_SuperCap_02_ComponentData_Skeleton_SkelCap_10_Parameter_141008_Skelcap11300(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_10_SuperCap_02_ComponentData_Skeleton_SkelCap_10_Parameter_141008_Skelcap12500(,)" time="0.000"></testcase><testcase classname="AutoPoller.EdrisDBChecker" name="_test_EDRIS_database_ComponentData_10_SuperCap_02_ComponentData_Skeleton_SkelCap_10_Parameter_141008_Skelcap9200(,)" time="0.000"></testcase></testsuite>

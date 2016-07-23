@@ -1,0 +1,146 @@
+{
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTG",
+        "reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB Steadystate Generate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"RCI_P_peak",
+                    "comment": "initial battery RCI (Relative Charging Indicator)",
+                    "value": "0.1:0.1:1.0"
+                },
+
+                {
+                    "name": "setSpeed",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "rad/s", 
+                    "displayUnit": "rpm", 
+                    "quantity": "AngularVelocity", 
+                    "sdfName":"w_P_peak",
+                    "comment": "e-machine shaft speed",
+                    "value": "500:500:7500"
+                },
+
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "K", 
+                    "displayUnit": "degC", 
+                    "quantity": "Temperature", 
+                    "sdfName":"T_P_peak",
+                    "comment": "battery cell core temperature",
+                    "value": ["-10","0","10","25","35","40"]
+                },
+                {
+                    "name": "StopTime",
+                    "link": "parameterOfFunction.testArguments.simulationSettings",
+                    "unit": "s", 
+                    "quantity": "Time", 
+                    "sdfName":"t_P_peak",
+                    "comment": "pulse time for constant power output",
+                    "value": ["2","5","10","30","60","150","300"]
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "setTorque":
+                        {
+                            "maxValue" : "1500",
+                            "minValue" : "1",
+                            "errorRange" : "2"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "10",
+                            "lprec" : "0",
+                            "lx" : "0",
+                            "lxd" : "0",
+                            "lu" : "0",
+                            "ly" : "1",
+                            "lz" : "0",
+                            "lw" : "0",
+                            "la" : "0",
+                            "lperf" : "0",
+                            "levent" : "0",
+                            "lshare" : "0"
+                        },
+                        "parameters":
+                        {
+                            "setTorqueTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "1500",
+                            "RCIend_terminate": "0.0001"
+                        },
+                        "results":
+                        [
+                            {
+                                "signalName": "_signalBus_Main.batteryBus.general.current",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "battery current",
+                                "sdfName":"i_DC_P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.electricMachine1Bus.general.currentRMS", 
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "comment": "root mean square of the AC current", 
+                                "sdfName":"i_ACRMS_P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.batteryBus.general.voltage", 
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "comment": "battery voltage", 
+                                "sdfName":"v_P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.electricMachine1Bus.general.powerMech", 
+                                "unit": "W",
+                                "quantity": "Power", 
+                                "comment": "system mechanical power", 
+                                "sdfName":"P_peak"
+                            },
+                            {
+                                "signalName": "_signalBus_Main.batteryBus.general.SOC",
+                                "comment": "battery state of charge at simulation end", 
+                                "sdfName":"SOC_end_peak"
+                            },
+                            {"signalName": "summary.deratingStatus",
+                                "comment": "derating status indicator (0 : No derating, 1 : Current derating (HVS), 2 : Voltage derating (HVS), 3 : SOC (energy) derating (HVS), 4 : max torque derating (EM))", 
+                                "sdfName":"derating_peak"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

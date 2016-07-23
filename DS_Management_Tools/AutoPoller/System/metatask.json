@@ -1,0 +1,116 @@
+{
+    "building":
+    {
+        "definition":
+        {
+            "Battery_01": "battery",
+            "ElectricMachine_01": "ElectricMachine",
+            "Inverter":"inverter_FlowPort"
+        }
+    },
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.FullFactorialTG_SOH.FullFactorialTG_SOH",
+        "reporter": "AutoPoller.System.ReporterAuto.ReporterAuto"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Separated_SPS_base Generate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": "0.05 0.1:0.1:0.2",
+                    "enumerable": "False"
+                },
+                
+                {
+                    "name": "setSpeed",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": "500:500:n_max n_eck",
+                    "enumerable": "False"
+                },
+                 
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": ["25"],
+                    "enumerable": "True"
+                },
+                  
+                {
+                    "name": "StopTime",
+                    "link": "parameterOfFunction.testArguments.simulationSettings",
+                    "value": ["30"],
+                    "enumerable": "True"
+                },
+                
+                {
+                    "name": "SOH",
+                    "link": "parameterOfFunction.testArguments",
+                    "value": ["0"],
+                    "enumerable": "True"
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "setTorque":
+                        {
+                            "maxValue" : "1500",
+                            "minValue" : "1",
+                            "errorRange" : "2"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "15"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "setTorqueTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0",
+                            "RCIend_terminate": "0.0001"
+                        },
+                        "results":
+                        [
+                            {"signalName": "clock.y"},
+                            {"signalName": "summarySystemSPS.batteryCurrent"},
+                            {"signalName": "summarySystemSPS.batteryVoltage"},
+                            {"signalName": "summarySystemSPS.ACrmsCurrent"},
+                            {"signalName": "summarySystemSPS.SOC"},
+                            {"signalName": "summarySystemSPS.machineTorque"},
+                            {"signalName": "summarySystemSPS.additionalOutput"},
+                            {"signalName": "summarySystemSPS.mechanicalPower"}          
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

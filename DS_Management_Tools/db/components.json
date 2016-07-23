@@ -1,0 +1,201 @@
+[
+  {
+    "files": [
+      "C002_EMP156p162_20130422_B2_LEB452_A_Job2_v1.mat", 
+      "G002_EMP156p162_20130313_B2_F45_F48_LEB452.mat", 
+      "L002_EMP156p162_20130313_B2_F45_LEB452_A.mat", 
+      "L002_LEB452_20130313_A_EMP156p162_B2_F45.mat", 
+      "M_Gen3_PSM_EMP156162_130313_B2_LEB452_A_F49_M13.docx", 
+      "M_Gen3_PSM_EMP156162_130313_B2_LEB452_A_F49_M13.m", 
+      "work"
+    ], 
+    "operator_id": "", 
+    "hash": "afdaa0b5312b35013664c6c5fc127d97", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\04_EM\\02_ComponentData\\Gen3_PSM_EMP156162\\10_Parameter\\130313_B2_LEB452_A_F49_M13", 
+    "type": "ElectricMachine"
+  }, 
+  {
+    "files": [
+      "1Stufig", 
+      "C001_LE125LD_BEV13_20111211.mat", 
+      "L003_LE125LD_20121011_C0Rev4.mat", 
+      "M_C001_LE125LD_BEV13_20111211_L003_LE125LD_20121011_C0Rev4_.docx", 
+      "M_C001_LE125LD_BEV13_20111211_L003_LE125LD_20121011_C0Rev4_.m"
+    ], 
+    "operator_id": "", 
+    "hash": "8ff8c1c8ccb4ff7df16339e415238748", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\05_DCDC\\02_ComponentData\\BMW_LE125LD\\10_parameterSets", 
+    "type": "DCDCConverter"
+  }, 
+  {
+    "files": [
+      "C001_SLE_20120312.mat", 
+      "L002_SLE_20121127_C0Rev4.mat", 
+      "M_C001_SLE_20120312_L002_SLE_20121127_C0Rev4_.docx", 
+      "M_C001_SLE_20120312_L002_SLE_20121127_C0Rev4_.m"
+    ], 
+    "operator_id": "", 
+    "hash": "ebc1c071f6790a25e978a65eac9a0262", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\06_Charger\\02_ComponentData\\BMW_LE125\\10_parameterSets", 
+    "type": "Charger"
+  }, 
+  {
+    "files": [
+      "C011_GEN5_20140717_PHEV1_85mm_P_96s1p.mat", 
+      "FMU_cs_GEN5_20140717_PHEV1_85mm_P_96s1p_CoSim.fmu", 
+      "FMU_me_GEN5_20140717_PHEV1_85mm_P_96s1p.fmu", 
+      "G011_GEN5_20140717_PHEV1_85mm_P_96s1p.mat", 
+      "M_GEN5_20140717_PHEV1_85mm_P_96s1p.docx", 
+      "M_GEN5_20140717_PHEV1_85mm_P_96s1p.m", 
+      "T011_GEN5_20140717_PHEV1_85mm_P_96s1p.mat"
+    ], 
+    "operator_id": "", 
+    "hash": "628f37555d620f0d91b0570c07c1fa91", 
+    "description": "\t", 
+    "done": true, 
+    "path": "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\03_PHEV1_85mm_P\\01_Gen5_20140717_PHEV1_85mm_P_96s1p", 
+    "type": "Battery"
+  }, 
+  {
+    "files": [
+      "C002_EMP156p162_20130313_B2_UKL_F45.mat", 
+      "G002_EMP156p162_20130313_B2_F45_F48_LEB452.mat", 
+      "L002_EMP156p162_20130313_B2_F45_LEB452_A.mat", 
+      "L002_LEB452_20130313_A_EMP156p162_B2_F45.mat", 
+      "M_Gen3_PSM_EMP156162_130313_B2_LEB452_A_F45_F60.docx", 
+      "M_Gen3_PSM_EMP156162_130313_B2_LEB452_A_F45_F60.m", 
+      "work"
+    ], 
+    "operator_id": "Dongping", 
+    "hash": "f20ec4d928c6b56cc299726fa5b5679c", 
+    "description": "", 
+    "path": "EDRIS_database\\ComponentData\\04_EM\\02_ComponentData\\Gen3_PSM_EMP156162\\10_Parameter\\130313_B2_LEB452_A_F45_F60", 
+    "type": "ElectricMachine"
+  }, 
+  {
+    "files": [
+      "C011_Gen5_20140717_PHEV1_85mm_UHE_88s3p.mat", 
+      "FMU_cs_Gen5_20140717_PHEV1_85mm_UHE_88s3p_CoSim.fmu", 
+      "FMU_me_Gen5_20140717_PHEV1_85mm_UHE_88s3p.fmu", 
+      "G011_Gen5_20140717_PHEV1_85mm_UHE_88s3p.mat", 
+      "M_Gen5_20140717_PHEV1_85mm_UHE_88s3p.docx", 
+      "M_Gen5_20140717_PHEV1_85mm_UHE_88s3p.m", 
+      "report-NcAing-0.7-RiAging0.7.txt", 
+      "report.txt", 
+      "T011_Gen5_20140717_PHEV1_85mm_UHE_88s3p.mat", 
+      "temp20140912132258807000", 
+      "temp20140912133419075000", 
+      "temp20140912133503007000", 
+      "temp20140912133542017000"
+    ], 
+    "operator_id": "Peter", 
+    "hash": "2055eb39f747fe00657fe551bffeadf7", 
+    "description": "\tirgendwas", 
+    "done": true, 
+    "path": "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\01_PHEV1_85mm_UHE\\01_Gen5_20140717_PHEV1_85mm_UHE_88s3p", 
+    "type": "Battery"
+  }, 
+  {
+    "files": [
+      "C011_Gen5_20140717_PHEV1_85mm_UHE_96s3p.mat", 
+      "FMU_cs_Gen5_20140717_PHEV1_85mm_UHE_96s3p_CoSim.fmu", 
+      "FMU_me_Gen5_20140717_PHEV1_85mm_UHE_96s3p.fmu", 
+      "G011_Gen5_20140717_PHEV1_85mm_UHE_96s3p.mat", 
+      "M_Gen5_20140717_PHEV1_85mm_UHE_96s3p.docx", 
+      "M_Gen5_20140717_PHEV1_85mm_UHE_96s3p.m", 
+      "T011_Gen5_20140717_PHEV1_85mm_UHE_96s3p.mat"
+    ], 
+    "operator_id": "peter", 
+    "hash": "ea9ea004dcb0f679efecd0bc4e3e5f67", 
+    "description": "\tbeschreibung", 
+    "done": true, 
+    "path": "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\01_PHEV1_85mm_UHE\\03_Gen5_20140717_PHEV1_85mm_UHE_96s3p", 
+    "type": "Battery"
+  }, 
+  {
+    "files": [
+      "C010_SP01_20130729_i490_LD.mat", 
+      "C010_SP01_20130729_i490_P.mat", 
+      "G010_SP01_20130122_C_2RC_Idep_v2.mat", 
+      "M_SP01_20130909_LD.docx", 
+      "M_SP01_20130909_LD.m", 
+      "M_SP01_20130909_P.docx", 
+      "M_SP01_20130909_P.m", 
+      "T010_SP01_20130805_C1.mat"
+    ], 
+    "operator_id": "", 
+    "hash": "8808b881423d650c859570bbaff0c0eb", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\03_P_PHEV\\SP01\\10_parameterSets\\20130909", 
+    "type": "Battery"
+  }, 
+  {
+    "files": [
+      "C002_EMP242_130_20140304_D_maxKLv3_125kW.mat", 
+      "EMP242_130_I01_125kW_8_16kHz_PST706.xlsx", 
+      "G002_EMP242p130_20130527_D_LE125_C2_FU_8_16.mat", 
+      "L002_EMP242_130_20130717_D_LE125_C2_FU_8_16_PST706.mat", 
+      "L002_LE125_20130226_C2_EMP242_130_D_FU_8_16_PST706.mat", 
+      "M_Gen3_PSM_EMP242130_130220_Serienstand_125Kw.docx", 
+      "M_Gen3_PSM_EMP242130_130220_Serienstand_125Kw.m", 
+      "work"
+    ], 
+    "operator_id": "", 
+    "hash": "1fcc7cac1a5862812753fc11a88992ec", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\04_EM\\02_ComponentData\\Gen3_PSM_EMP242130\\10_Parameter\\130220_Serienstand_125Kw", 
+    "type": "ElectricMachine"
+  }, 
+  {
+    "files": [
+      "C002_Gen3_PSM_EMP242130_140625_LEB125_011040004_origKF_02erBl_PKR2.mat", 
+      "EMP242_02erBlech_Musterbau_LEB125_PKR2_011_040_004.sdf", 
+      "EMP242_02erBlech_Musterbau_LEB125_PKR2_011_040_004.xlsx", 
+      "EMP242_02erBlech_Musterbau_LEB125_PKR2_011_040_004_interpolated.sdf", 
+      "G002_Gen3_PSM_EMP242130_140625_LEB125_011040004_origKF_02erBl_PKR2.mat", 
+      "L002_Gen3_PSM_EMP242130_140625_LEB125_011040004_origKF_02erBl_PKR2_EM.mat", 
+      "L002_Gen3_PSM_EMP242130_140625_LEB125_011040004_origKF_02erBl_PKR2_Inv.mat", 
+      "M_Gen3_PSM_EMP242130_140625_LEB125_011040004_origKF_02erBl_PKR2.docx", 
+      "M_Gen3_PSM_EMP242130_140625_LEB125_011040004_origKF_02erBl_PKR2.m", 
+      "work"
+    ], 
+    "operator_id": "", 
+    "hash": "15c8c0ef1dc7177e2a07d0c5835b38c9", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\04_EM\\02_ComponentData\\Gen3_PSM_EMP242130\\10_Parameter\\140625_LEB125_011040004_origKF_02erBl_PKR2", 
+    "type": "ElectricMachine"
+  }, 
+  {
+    "files": [
+      "C002_Gen3_PSM_EMP242130_140617_LEB125_ETK_03Blech_modifiziert_PKR2.mat", 
+      "G002_Gen3_PSM_EMP242130_140617_LEB125_ETK_03Blech_modifiziert_PKR2.mat", 
+      "L002_Gen3_PSM_EMP242130_140617_LEB125_ETK_03Blech_modifiziert_PKR2_EM.mat", 
+      "L002_Gen3_PSM_EMP242130_140617_LEB125_ETK_03Blech_modifiziert_PKR2_Inv.mat", 
+      "M_Gen3_PSM_EMP242130_140617_LEB125_ETK_03Blech_modifiziert_PKR2.docx", 
+      "M_Gen3_PSM_EMP242130_140617_LEB125_ETK_03Blech_modifiziert_PKR2.m", 
+      "work"
+    ], 
+    "operator_id": "", 
+    "hash": "ea6ff339cb7562d14c866e89563c4271", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\04_EM\\02_ComponentData\\Gen3_PSM_EMP242130\\10_Parameter\\140617_LEB125_ETK_03Blech_modifiziert_PKR2", 
+    "type": "ElectricMachine"
+  }, 
+  {
+    "files": [
+      "C012_GEN5_20140827_MCV2_85mm_HE_84s_2p.mat", 
+      "G011_GEN5_20140827_MCV2_85mm_HE_84s_2p.mat", 
+      "M_GEN5_20140827_MCV2_85mm_HE_84s_2p.docx", 
+      "M_GEN5_20140827_MCV2_85mm_HE_84s_2p.m", 
+      "T011_GEN5_20140827_MCV2_85mm_HE_84s_2p.mat"
+    ], 
+    "operator_id": "", 
+    "hash": "60458f6323e652654093d8b9021f7a22", 
+    "description": "\t", 
+    "path": "EDRIS_database\\ComponentData\\02_ElectricEnergyStorageSystem\\02_ComponentData\\50_Gen5\\04_MCV2_85mm_HE\\04_Gen5_20140827_MCV2_HE_84s_2p", 
+    "type": "Battery"
+  }
+]

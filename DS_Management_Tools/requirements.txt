@@ -1,0 +1,17 @@
+flask
+pykka
+pymongo==2.8
+pyyaml
+PyOpenSSL
+pika
+watchdog
+xhtml2pdf
+objgraph
+prettytable
+xlsxwriter
+flask_bootstrap
+flask_appconfig
+flask_wtf
+xlwt
+nose
+lxml

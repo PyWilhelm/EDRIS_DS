@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/js/spin.js" ></script>
+    <link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header-wrapper">
+<div class="container" id="header">
+<div id="logo">
+<h1>EdriS MANAGEMENT</h1>
+</div>
+
+<div id="menu">
+<ul>
+    <li class="current_page_item"><a accesskey="1" href="/" title="" style="color: White">Homepage</a></li>
+    <li class="current_page_item"><a accesskey="1" href="#" title="" >Setting Tasks</a></li>
+
+    <li>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="header-featured">
+<div id="banner-wrapper">&nbsp;</div>
+</div>
+</div>
+
+<div id="wrapper">
+<div class="container" id="page">
+<div id="content">
+<div class="title">
+<h2>My Tasks</h2>
+</div>
+    {% for key in tasks %}
+    <lable style="font-size: 24px;"><a href="/get-mytasks/{{key}}">{{tasks[key]}}</a></lable>
+    <br/>
+    
+    {% endfor %}
+<p>&nbsp;</p>
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

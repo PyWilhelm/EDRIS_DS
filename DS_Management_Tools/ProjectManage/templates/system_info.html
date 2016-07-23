@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+      <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.js'></script>
+<script type='text/javascript'>
+var xmlhttp;
+var timer;
+function check()
+{
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "check-system-info", true)
+    xmlhttp.onreadystatechange = updatepage; 
+    xmlhttp.send();
+
+}
+
+function updatepage()
+{
+	if (xmlhttp.readyState == 4)
+    {
+        var response = xmlhttp.responseText;
+        var data = JSON.parse(response);
+        var dataSpeed = data.speed;
+        var speedList = [];
+        for (var i in dataSpeed)
+        {
+        	speedList[speedList.length] = [dataSpeed[i].name, dataSpeed[i].value];
+        }
+
+        var chart = $('#speed').highcharts();
+        chart.series[0].setVisible(false);
+        chart.series[0].setData(speedList);
+        chart.series[0].setVisible(true, true);
+        
+        var dataController = data.controller;
+        var controllerList = [];
+        for (var i in dataSpeed)
+        {
+            speedList[speedList.length] = [dataSpeed[i].name, dataSpeed[i].value];
+        }
+        var chart = $('#controller').highcharts();
+        chart.xAxis[0].update({categories: dataController.controllers}, true);
+        for (var i=0; i<4; i++)
+        {
+            chart.series[i].setVisible(false);
+            
+            chart.series[i].setData(dataController.values[i]);
+            chart.series[i].setVisible(true, true);
+        }
+        timer = setTimeout(check, 4000);
+    }
+	
+}
+
+$(function () {
+    $('#speed').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Processing Speed of Workers'
+        },
+        xAxis: {
+            type: 'category',
+            labels: {
+                rotation: -45,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'Verdana, sans-serif'
+                }
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Speed (/min)'
+            }
+        },
+
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            pointFormat: 'Speed: <b>{point.y:.1f} / min</b>'
+        },
+        series: [{
+            name: 'Speed',
+            data: [],
+            dataLabels: {
+                enabled: true,
+                rotation: -90,
+                color: '#FFFFFF',
+                align: 'right',
+                x: 4,
+                y: 10,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'Verdana, sans-serif',
+                    textShadow: '0 0 3px black'
+                }
+            }
+        }]
+    });
+});
+
+$(function () {
+    $('#controller').highcharts({
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Stacked bar chart'
+        },
+        xAxis: {
+            categories: []
+        },
+        yAxis: {
+            min: 0,
+            max: 100,
+            title: {
+                text: 'Total fruit consumption'
+            }
+        },
+        tooltip: {
+            pointFormat: 'Speed: <b>{point.y:.1f}</b>'
+        },
+        legend: {
+            reversed: true
+        },
+        plotOptions: {
+            series: {
+                stacking: 'normal'
+            }
+        },
+        series: [{
+            name: 'Waiting',
+            data: [5, 3, 4, 7, 2]
+        }, {
+            name: 'Processing',
+            data: [2, 2, 3, 2, 1]
+        }, {
+            name: 'Successful',
+            data: [3, 4, 4, 2, 5]
+        },{
+            name: 'Failed',
+            data: [0, 0, 0, 1, 0]
+        }]
+    });
+});
+check();
+</script>
+
+</head>
+<body>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<div id="header-wrapper">
+<div class="container" id="header">
+<div id="logo">
+<h1>EdriS MANAGEMENT</h1>
+</div>
+
+<div id="menu">
+<ul>
+    <li class="current_page_item"><a accesskey="1" href="#" title="">New component</a></li>
+    <li>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="header-featured">
+<div id="banner-wrapper">&nbsp;</div>
+</div>
+</div>
+
+<div id="wrapper">
+<div class="container" id="page">
+<div id="content">
+    <div id="controller">
+    </div>
+    <div id="speed">
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

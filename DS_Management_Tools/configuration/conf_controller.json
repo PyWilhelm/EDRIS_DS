@@ -1,0 +1,30 @@
+{
+    "libraryPath":
+    {
+        "EdrisLibComponents": "EdrisLibComponents\\trunk\\EdrisLibComponents",
+        "EdrisLibData": "EdrisLibData\\trunk\\EdrisLibData",
+        "EdrisLibSystems": "EdrisLibSystems\\trunk\\EdrisLibSystems",
+		"SimDevTools": "EDRIS_HDF5Package\\trunk\\SimDevTools-0.1.3Beta\\Modelica\\SimDevTools"
+    },
+    
+    "databaseSetting":
+    {
+        "dbmsHost" : "mongodb://localhost:27017/",
+        "dbPath" : "C:\\server\\mongo_db_path",
+        "dbmsPath" : "C:\\softwares\\mongodb-win32-i386-2.6.1\\bin\\mongod.exe"
+    },
+    "buildSetting":
+    {
+        "https": true,
+        "host": "localhost",
+        "port": 802,
+        "path": "C:\\myjob\\EDRIS_Management_Tools\\BuilderService\\build_path",
+        "outputPath": "/add-dependency",
+        "dymolaPath": "C:\\softwares\\Dymola2015\\bin\\Dymola.exe",
+        "dymolaLicensePath": "dymola.lic",
+        "username": "EDRIS",
+        "password": "EDRIS",
+        "keyfile": "certificates\\host.key",
+        "certfile":   "certificates\\host.crt"
+    }
+}

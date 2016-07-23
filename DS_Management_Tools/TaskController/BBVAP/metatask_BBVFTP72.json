@@ -1,0 +1,89 @@
+{
+
+    "building":
+    {
+        "definition":
+        {
+            "Battery": "battery"
+        }
+        
+    },
+    
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.SimpleVariationTG",
+        "reporter": "TaskController.BBVAP.ReporterBBVExtension.ReporterBBVFTP72"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "BatteryBedatungVisualisierung",
+        "arguments":
+        {
+            "constant":
+            {
+                "buildingInfo" : 
+                {
+                    "Zyklus" : 
+                    {
+                        "type" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.Inputs.TableInterfaceInput", 
+                        "method" : "redeclare",
+                        "child" : 
+                        {
+                        	"batteryCycle":
+                        	{
+                        		"type" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.Inputs.FTP72_i01", 
+                        		"method" : "redeclare"
+                        	}
+                        }
+                    }
+                } ,
+
+                "meta_function": "SimpleDymolaSimulationTask.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+                
+                "parameterOfFunction":
+                {
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_Cycle_Motor_Mode_Derating",
+
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "1372"
+                        },
+                        "parameters":
+                        {
+                            "powerTolerance": "2000"
+                        },
+                        "results":
+                        [
+                            {"signalName": "clock.y"},
+                            {"signalName": "summary.batteryCurrent"},
+                            {"signalName": "summary.batteryCurrentChargeLimit"},
+                            {"signalName": "summary.batteryCurrentDischargeLimit"},
+                            {"signalName": "summary.batteryVoltage"},
+                            {"signalName": "summary.batteryVoltageChargeLimit"},
+                            {"signalName": "summary.batteryCellCoreTemperature"},
+                            {"signalName": "summary.batteryStartCoolingTemperature"},
+                            {"signalName": "summary.batteryStopCoolingTemperature"},
+                            {"signalName": "summary.batteryPower"},
+                            {"signalName": "summary.batteryDesiredPower"},
+                            {"signalName": "summary.batteryMaxDischargePower"},
+                            {"signalName": "summary.SOC"},
+                            {"signalName": "summary.energyBatteryWh"},
+                            {"signalName": "summary.efficiencyEnergy"},
+                            {"signalName": "summary.resistanceInnerCell"},
+                            {"signalName": "summary.voltageIdle"},
+                            {"signalName": "summary.deratingStatus"},
+                            {"signalName": "summary.additionalOutput"}
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

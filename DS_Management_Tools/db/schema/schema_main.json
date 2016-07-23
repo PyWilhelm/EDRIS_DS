@@ -1,0 +1,36 @@
+{ 
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "main schema",
+    "type": "object",
+    "properties":
+    {
+        "building":
+        {
+            "type": "object"
+        },
+        "classes":
+        {
+            "type": "object"
+        },
+        "taskGenerator":
+        {
+            "type": "object",
+            "properties":
+            {
+                "taskGenerateName": {"type": "string"},
+                "arguments":
+                {
+                    "type": "object",
+                    "properties":
+                    {
+                        "constant": {"type": "object"},
+                        "variable": {"type": "array"}
+                    },
+                    "required": ["constant"]
+                }
+            },
+            "required": ["taskGenerateName", "arguments"]
+        }
+    },
+    "required": ["classes", "taskGenerator"]
+}

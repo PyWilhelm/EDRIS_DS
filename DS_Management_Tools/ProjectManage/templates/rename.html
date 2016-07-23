@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        function on_click()
+        {
+            document.getElementById("resolve").disabled=true
+            path = document.getElementById("setpath").value;
+            div = document.getElementById("divpath");
+            path = path.replace("/", "\\").replace("\\\\", "\\");
+            split_path = path.substr(path.search("edris")+6).split('\\');
+            html = "<table><tbody>";
+            var i=0, j=0;
+
+            while (i < split_path.length)
+            {
+                html += "<tr>";
+                for(var ii=0; i+ii<split_path.length && ii<4; ii++)
+                {
+                    html += "<td style=\"font-size: 12px; width\">" + split_path[i+ii] + "/</td>";
+                }
+                i += ii;
+                html += "</tr><tr>"
+                for(var jj=0; j+jj<split_path.length && jj<4; jj++)
+                {
+                    html += "<td style=\"font-size: 12px; \"><input name=\"path" + (jj+j).toString() +
+                    "\" type=\"input\" value=\""
+                    + split_path[j+jj] + "\" onKeyUp=\"on_change(this)\"</input></td>";
+                }
+                j += jj;
+                html += "</tr><tr><td><li>&nbsp;</td></li></tr>";
+
+            }
+            html += "</tbody></table>";
+            html += "The renamed folder name: <div id=\"newpath\" style=\"font-size: 14px; \">";
+            var postpath = ""
+            for(var j=0; j<split_path.length; j++)
+            {
+                html += "<label name=\"newlbl\" >" + split_path[j] + "/</label>";
+                postpath += split_path[j] + "/"
+            }
+            html += "</div>"
+            div.innerHTML += html;
+            hiddeninput = document.getElementById("post_newpath");
+            hiddeninput.value = postpath;
+            document.getElementById("setpath").value = postpath;
+        }
+
+        function on_change(input)
+        {
+            text = input.value;
+            id = parseInt(input.name.replace("path", ""));
+            lbls = document.getElementsByName("newlbl");
+            lbl = lbls[id]
+            lbl.style.color = "red";
+            lbl.style.fontSize  = "16px";
+            lbl.style.fontWeight = 'bold';
+            lbl.innerHTML = text + "/";
+            hiddeninput = document.getElementById("post_newpath");
+            var postpath = "";
+            for (var i=0; i<lbls.length; i++)
+            {
+                postpath += lbls[i].innerHTML;
+            }
+            hiddeninput.value = postpath;
+
+        }
+    </script>
+
+</head>
+<body>
+<div id="header-wrapper">
+<div class="container" id="header">
+<div id="logo">
+<h1>EdriS MANAGEMENT</h1>
+</div>
+
+<div id="menu">
+<ul>
+	<li class="current_page_item"><a accesskey="1" href="/" title="" style="color: White">Homepage</a></li>
+    <li class="current_page_item"><a accesskey="1" href="#" title="">Rename Folder in SVN</a></li>
+    <li>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="header-featured">
+<div id="banner-wrapper">&nbsp;</div>
+</div>
+</div>
+
+<div id="wrapper">
+<div class="container" id="page">
+<div id="content">
+<div class="title">
+<h2>Rename Folder in SVN</h2>
+</div>
+
+<p>&nbsp;</p>
+
+<form action='/rename' method='post' enctype='multipart/form-data'>
+<ul class="container" id="banner">
+    <li>Folder Path:
+    <label style="font-size: 18px; font-weight:bold; color:red">(type the absolute folder path)</label>
+    <li>&nbsp;</li>
+    <label style="font-size: 18px; font-weight:bold; color:red">(rename only one folder at once!)</label>
+    <div id="divpath">
+    <input name="path" id="setpath" size="44" style="width: 652px; height: 29px" type="text" onchange="on_change()" />
+    <input name="post_newpath" id="post_newpath" type="hidden" />
+    <button name="resolve" id="resolve" type="button" size="30" style="width: 80px; height: 29px" onclick="on_click()">Resolve</button>
+    </div>
+
+    </li>
+    <li>&nbsp;</li>
+
+    <li>Comment:
+    <div>
+    <textarea cols="57" name="comment" rows="3" style="width: 529px; height: 70px">
+    </textarea>
+
+    </div></li>
+
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+    <li><input type="submit" value="Submit" style="font-size: 18px; font-weight: bold" /></li>
+</ul>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

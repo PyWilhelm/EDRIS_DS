@@ -1,0 +1,115 @@
+{
+	"building":
+	{
+		"definition":
+		{
+			"Battery_01": "battery"
+		}
+	},
+	"classes":
+	{
+		"taskGenerator": "TaskController.BaseClass.FullFactorialTG.FullFactorialTG",
+		"reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+	},
+	
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Battery_PCP_base",
+        "arguments":
+        {
+            "variable":
+            [                    
+                
+                {
+                	"name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": "0:0.05:1",
+                    "enumerable": "False"
+                },
+                
+                
+                 
+                {
+                	"name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "value": ["-25","-20","-15","-10","-5","0","5","10","15","20","25","30","35","40"],
+                    "enumerable": "True"
+                },
+                  
+                {
+                	"name": "StopTime",
+                    "link": "parameterOfFunction.testArguments.simulationSettings",
+                    "value": ["1","2","5","10","18","30","150","300"],
+                    "enumerable": "True"
+                },
+                
+                {
+                	"name": "SOH",
+                	"link": "parameterOfFunction.testArguments",
+                	"value": ["1"],
+                    "enumerable": "True"
+                }
+                
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "power":
+                        {
+                            "maxValue" : "500000",
+                            "minValue" : "500",
+                            "errorRange" : "100"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_PCP_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "15"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "setTorqueTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0",
+                            "RCIend_terminate": "0.0001",
+                            "driveMode": "1",
+                            "terminateByDerating": "true"
+                        },
+                        "results":
+                        [
+                            {"signalName": "clock.y"},
+                            {"signalName": "summary.batteryCurrent"},
+                            {"signalName": "summary.batteryVoltage"},
+                            {"signalName": "summary.ACrmsCurrent"},
+                            {"signalName": "summary.SOC"},
+                            {"signalName": "summary.machineTorque"},
+                            {"signalName": "summary.additionalOutput"},
+                            {"signalName": "summary.mechanicalPower"}	,
+                            {"signalName": "Ri_Calculation.out_Ri"},
+                            {"signalName": "Ri_Calculation.out_CurrentPerCell"},		
+                            {"signalName": "Ri_Calculation.out_VoltagePerCell"}		
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

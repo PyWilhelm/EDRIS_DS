@@ -1,0 +1,119 @@
+{
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.FullFactorialTGNoDymola",
+        "reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB Steadystate Generate",
+        "arguments":
+        {
+            "variable":
+            [                    
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"RCI_P_cont",
+                    "value": ["0.1", "0.6"]
+                },
+
+                {
+                    "name": "setSpeed",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "rad/s", 
+                    "displayUnit": "rpm", 
+                    "quantity": "AngularVelocity", 
+                    "sdfName":"w_P_cont",
+                    "value": "500 1000"
+                },
+
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "K", 
+                    "displayUnit": "degC", 
+                    "quantity": "Temperature", 
+                    "sdfName":"T_P_cont",
+                    "value": ["-10", "40"]
+                }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPSSystemMock.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "setTorque":
+                        {
+                            "maxValue" : "1500",
+                            "minValue" : "1",
+                            "errorRange" : "2"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_separated_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.5",
+                            "StopTime" : "360000"
+                        },
+                        "parameters":
+                        {
+                            "RCIend_terminate": "0.05",
+                            "setTorqueTolerance": "0.5",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0",
+                            "RCIend_terminate": "0.0001"
+                        },
+                        "results":
+                        [
+                            {   
+                                "signalName": "Time",
+                                "unit": "s", 
+                                "quantity": "Time", 
+                                "sdfName":"t_P_cont"
+                            },
+                            {   
+                                "signalName": "_signalBus_Main.batteryBus.general.current",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "sdfName":"i_DC_P_cont"
+                            },
+                            {"signalName": "_signalBus_Main.electricMachine1Bus.general.currentRMS", 
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "sdfName":"i_ACRMS_P_cont"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.voltage", 
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "sdfName":"v_P_cont"
+                            },
+                            {"signalName": "_signalBus_Main.electricMachine1Bus.general.powerMech", 
+                                "unit": "W",
+                                "quantity": "Power", 
+                                "sdfName":"P_cont"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.SOC",
+                                "sdfName":"SOC_end_cont"
+                            },
+                            {"signalName": "summary.deratingStatus",
+                                "sdfName":"derating_cont"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

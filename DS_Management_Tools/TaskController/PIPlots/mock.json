@@ -1,0 +1,132 @@
+{
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.ChangeOneTGNoDymola",
+        "reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+    },
+	
+    "taskGenerator":
+    {
+        "taskGenerateName" : "Task2",
+        "arguments":
+        {
+            "variable":
+            [
+                {
+                    "name": "setRci",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "sdfName":"RCI_P_peak",
+                    "value": ["0.7", "0.8", "0.6"]
+                },
+
+                {
+                    "name": "setSpeed",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "rad/s", 
+                    "displayUnit": "rpm", 
+                    "quantity": "AngularVelocity", 
+                    "sdfName":"w_P_peak",
+                    "value": "5000 1000"
+                },
+
+                {
+                    "name": "setTemp",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "K", 
+                    "displayUnit": "degC", 
+                    "quantity": "Temperature", 
+                    "sdfName":"T_P_peak",
+                    "value": ["-10", "40", "120"]
+                },
+                {   
+                    "signalName": "stopTime",
+                    "link": "parameterOfFunction.testArguments.parameters",
+                    "unit": "s", 
+                    "quantity": "Time", 
+                    "sdfName":"t_P_peak",
+                    "value": ["-10", "40", "120"]
+                }
+                    
+            ],
+            "constant":
+            {
+                "meta_function": "SPSSystemMock.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                                
+                "buildingInfo": 
+                {
+                	"battery": 
+                	{
+                        "child": {}
+                        }
+                },
+
+                "parameterOfFunction":
+                {                 
+                	"functionArguments":
+                    {
+                        "power":
+                        {
+                            "maxValue" : "-1",
+                            "minValue" : "-1500000",
+                            "errorRange" : "10"
+                        }
+                    },
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_SPS_base",
+
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "10"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "powerTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2"
+                        },
+                        "results":
+                        [
+                            {   
+                                "signalName": "_signalBus_Main.batteryBus.general.current",
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "sdfName":"i_DC_P_peak"
+                            },
+                            {"signalName": "_signalBus_Main.electricMachine1Bus.general.currentRMS", 
+                                "unit": "A", 
+                                "quantity": "Current", 
+                                "sdfName":"i_ACRMS_P_peak"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.voltage", 
+                                "unit": "V", 
+                                "quantity": "Voltage", 
+                                "sdfName":"v_P_peak"
+                            },
+                            {"signalName": "_signalBus_Main.electricMachine1Bus.general.powerMech", 
+                                "unit": "W",
+                                "quantity": "Power", 
+                                "sdfName":"P_peak"
+                            },
+                            {"signalName": "_signalBus_Main.batteryBus.general.SOC",
+                                "sdfName":"SOC_end_peak"
+                            },
+                            {"signalName": "summarySystemSPS.deratingStatus",
+                                "sdfName":"derating_peak"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

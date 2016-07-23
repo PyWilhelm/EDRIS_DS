@@ -1,0 +1,5 @@
+{
+  "webserivce_host": "localhost", 
+  "webserivce_port": 800,
+  "thread": 8
+}

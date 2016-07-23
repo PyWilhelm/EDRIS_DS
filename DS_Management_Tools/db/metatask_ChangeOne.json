@@ -1,0 +1,89 @@
+{
+    "building":
+    {
+        "definition":
+        {
+            "Battery_01": "battery",
+            "ElectricMachine_01": "ElectricMaschine",
+            "Inverter":"inverter_FlowPort"
+        }
+        
+    },
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.ChangeOneTG.ChangeOneTG",
+        "reporter": "TaskController.BaseClass.BaseReporter.BaseReporter"
+    },
+    
+    "taskGenerator":
+    {
+        "taskGenerateName" : "TB_Separated_SPS_base Generate",
+        "arguments":
+        {
+            "variable":
+            [
+                    
+                    
+                    {
+                        "name": "setRci",
+                        "link": "parameterOfFunction.testArguments.parameters",
+                        "value": "0.1:0.1:1",
+                        "enumerable": "False"
+                    },
+                    {
+                        "name": "setTemp",
+                        "link": "parameterOfFunction.testArguments.parameters",
+                        "value": "-10:5:35",
+                        "enumerable": "False"
+                    }
+            ],
+
+            "constant":
+            {
+                "meta_function": "SPS.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                "parameterOfFunction":
+                {
+                    "functionArguments":
+                    {
+                        "power":
+                        {
+                            "maxValue" : "-1",
+                            "minValue" : "-1500000",
+                            "errorRange" : "10"
+                        }
+                    },
+
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_SPS_base",
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Increment" : "0.1",
+                            "StopTime" : "15"
+                        },
+                        "parameters":
+                        {
+                            "setNcAgingFactor": "0.8",
+                            "setRiAgingFactor": "1.5",
+                            "setNumberOfSerialCells": "0",
+                            "setNumberOfParallelCells": "0",
+                            "setTorqueTolerance": "0.5",
+                            "setAdditionalVariable": "0",
+                            "timeOffset": "0.2",
+                            "HV_consumption": "0",
+                            "RCIend_terminate": "0.0001"
+                        },
+                        "results":
+                        [
+                            {"signalName": "summary.batteryPower"}    
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title></title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+	<link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/static/skin-vista/ui.dynatree.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/js/spin.js" ></script>
+    <script src="/static/js/jquery/jquery.js" type="text/javascript"></script>
+    <script src="/static/js/jquery/jquery-ui.custom.js" type="text/javascript"></script>
+    <script src="/static/js/jquery/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.dynatree.js" type="text/javascript"></script>
+    <script src="/static/js/layer/layer.min.js"></script>
+	
+	
+	<link href="/static/default.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+		var xmlhttp;
+		var timer;
+		var timer2;
+        function set_comp_name(name)
+        {
+            document.getElementById("componentnames").value += name + "\n";
+        }
+        
+		function svn_update()
+		{
+			document.getElementById("update_status").innerHTML = "updating... please wait...";
+			document.getElementById("submit").disabled = true;
+			
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "update-svn", true)
+			xmlhttp.onreadystatechange = updatepage; 
+			
+			xmlhttp.send();
+			
+		}
+		
+		function updatepage()
+		{
+			if (xmlhttp.readyState == 4)
+			{
+				var response = xmlhttp.responseText;
+				old = document.getElementById("svn_revision").innerHTML
+				if (response.search(old) >=0 )
+					document.getElementById("svn_revision").innerHTML = response + "&nbsp;&nbsp; (already latest revision)"
+				else
+					document.getElementById("svn_revision").innerHTML = response + " &nbsp;&nbsp;<s>" + old + "</s>"
+				document.getElementById("update_status").innerHTML = "finished updating.";
+				document.getElementById("submit").disabled = false;
+			}
+		}
+		
+		function on_change(input)
+		{
+			
+			index = input.value.search("EDRIS_")
+			if (index >= 0)
+			{
+				xmlhttp = new XMLHttpRequest();
+				dir = input.value.substring(index);
+				xmlhttp.open("GET", "get-filenames?folder=" + dir , true);
+				xmlhttp.onreadystatechange = update_filenames; 
+				xmlhttp.send();
+			}
+				
+		}
+		
+		function update_filenames()
+		{
+			if (xmlhttp.readyState == 4)
+			{
+				var response = xmlhttp.responseText;
+				document.getElementById("componentfiles").innerHTML = "<li style=\"font-size: 16px;\"> File List: </li>" + response;
+			}
+		}
+		
+		function check()
+		{
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "get-result/"+document.getElementById("tid").value, true)
+			xmlhttp.onreadystatechange = insertResult; 
+			xmlhttp.send();
+		}
+		
+		function insertResult()
+		{
+			if (xmlhttp.readyState == 4)
+			{
+				var response = xmlhttp.responseText;
+				if (response.indexOf("ALL FINISHED!") >= 0)
+				{
+					document.getElementById('loading').innerHTML = '';
+					document.getElementById("result_div").innerHTML = response;
+                    document.getElementById("submit").disabled = false;
+                    document.getElementById("submit").onclick = function(){document.location.reload(true)};
+                    document.getElementById("submit").value = 'Reload';
+					clearInterval(timer);
+				}
+				else if (response.indexOf("Progress Information") >= 0)
+                {
+                    document.getElementById("result_div").innerHTML = response;
+                }
+                else if (response.indexOf("Initialize") >= 0)
+                {
+                	document.getElementById("result_div").innerHTML = response;
+                }
+                else if (response.indexOf("Table") >= 0)
+                {
+                    document.getElementById("result_div").innerHTML = response;
+                }
+                else
+                {
+                	document.getElementById("result_div").innerHTML = document.getElementById("result_div").innerHTML + 
+                	response + '<p>Internal ERROR! Resubmit the task or report this error';
+                }
+			}
+		}
+		
+		function on_submit()
+		{
+			document.getElementById("submit").disabled = true;
+			
+			var opts = {
+					  lines: 13, // The number of lines to draw
+					  length: 20, // The length of each line
+					  width: 10, // The line thickness
+					  radius: 30, // The radius of the inner circle
+					  corners: 1, // Corner roundness (0..1)
+					  rotate: 0, // The rotation offset
+					  direction: 1, // 1: clockwise, -1: counterclockwise
+					  color: '#000', // #rgb or #rrggbb or array of colors
+					  speed: 1, // Rounds per second
+					  trail: 60, // Afterglow percentage
+					  shadow: false, // Whether to render a shadow
+					  hwaccel: false, // Whether to use hardware acceleration
+					  className: 'spinner', // The CSS class to assign to the spinner
+					  zIndex: 2e9, // The z-index (defaults to 2000000000)
+					  top: '50%', // Top position relative to parent
+					  left: '50%' // Left position relative to parent
+					};
+			var target = document.getElementById('loading');
+			var spinner = new Spinner(opts).spin(target);
+			
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("POST", "set-BBVAP", true);
+			var data = new FormData();
+			data.append("modelname", document.getElementById("model").value);
+			data.append("componentnames", document.getElementById("componentnames").value);
+			data.append("tid", document.getElementById("tid").value);
+			data.append("NcAging", document.getElementById("NcAging").value);
+			data.append("RiAging", document.getElementById("RiAging").value);
+			//xmlhttp.onreadystatechange = insertResult; 
+			xmlhttp.send(data);
+			timer=setInterval(function(){check()}, 2000);
+		}
+		
+
+		
+	</script>
+
+</head>
+<body>
+<div id="header-wrapper">
+<div class="container" id="header">
+<div id="logo">
+<h1>EdriS MANAGEMENT</h1>
+</div>
+
+<div id="menu">
+<ul>
+	<li class="current_page_item"><a accesskey="1" href="/" title="" style="color: White">Homepage</a></li>
+	<li class="current_page_item"><a accesskey="1" href="#" title="">Setting Tasks</a></li>
+	<li>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="header-featured">
+<div id="banner-wrapper">&nbsp;</div>
+</div>
+</div>
+
+<div id="wrapper">
+<div class="container" id="page">
+<div id="content">
+<div class="title">
+<h2>Batterie Modell Charakterisierungstool</h2>
+</div>
+
+<p>&nbsp;</p>
+<ul class="container" id="banner">
+	<li>Current SVN Revision Number is:  
+		<label style="font-size: 18px; font-weight:bold; color:red" id="svn_revision">{{revision_number}}</label>
+		&nbsp;&nbsp;&nbsp;
+		<label style="font-size: 18px; font-weight:bold; color:red" id="update_status"></label>
+	</li>
+
+	<li><input type="button" name="svn_update_btn" value="update SVN" onclick="svn_update()" style="font-size: 18px; font-weight: bold"/></li>
+    <li>&nbsp;</li>
+    <li>
+    	
+    </li>
+    <li>&nbsp;</li>
+
+	<li>Model Name <label style="font-size: 18px; font-weight:bold; color:red">(type the complete name as shown in dymola)</label>
+	<div id="modelname"><input name="modelname" id="model" value="EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_SPS_base"  disabled="disabled" size="44" style="width: 652px; height: 29px" type="text"/>
+	</div></li>
+	<li>&nbsp;</li>
+	
+	<li>Parameter Set Folder in EDRIS Database (e.g. EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\
+	02_ComponentData\03_P_PHEV\SP42\10_ParameterSets\2013-11-18_SP42)<label style="font-size: 18px; font-weight:bold; color:red"></label>
+	<!-- 
+	<div id="componetname">
+	<input name="componentname" id="componentname" 
+	value="C:\edris\EDRIS_database\ComponentData\02_ElectricEnergyStorageSystem\02_ComponentData\50_Gen5\02_PHEV1_85mm_HE\01_Gen5_20140717_PHEV1_85mm_HE_96s2p" 
+	size="44" style="width: 652px; height: 29px" type="text" onkeyup="on_change(this)"/>
+	<script type="text/javascript">
+		on_change(document.getElementById("componentname"))
+	</script>
+	</div>
+	-->
+	<div id="componetnames">
+    <textarea name="componentnames" id="componentnames" size="44" style="width: 652px; height: 300px" ></textarea>
+    </div>
+	</li>
+	<li>
+        <button id="openTab" name="openTab">Add Component</button>
+        <script type="text/javascript">
+        $("#openTab").click(function(){
+            $.layer({
+                type: 2,
+                shade: [0],
+                fix: false,
+                maxmin: true,
+                title: [
+                    'Set Component', 
+                    'background:#2B2E37; height:40px; color:#fff; border:none;' 
+                ], 
+                border:[0],
+                area: ['60%', '60%'],
+                iframe: {src: 'get_fs_list/Battery'},
+                close: function(index){
+                    //document.getElementById("componentname").value = layer.getChildFrame('#componentname', index).val();
+                }
+            });
+     });
+        </script>
+    </li>
+	
+	<li>&nbsp;</li>
+	
+	<li>
+		<div id="componentfiles" style="margin-left: 50px; font-size: 16px;">
+		
+		</div>
+	</li>
+	<li>&nbsp;</li>
+		
+	
+    <li>&nbsp;</li>
+    
+    <li>NcAging value:
+	<div>
+	<input name="NcAging" id="NcAging" size="44" style="width: 652px; height: 29px" type="text" value="0.8" />
+	</div></li><li>&nbsp;</li>
+		<li>RiAging value:
+	<div>
+	<input name="RiAging" id="RiAging" size="44" style="width: 652px; height: 29px" type="text" value="1.3" />
+	</div></li><li>&nbsp;</li>
+    
+
+    <li><input type="button" value="Submit" id="submit" style="font-size: 18px; font-weight: bold" onclick="on_submit()" />
+    <div id="loading"></div>
+    <input type="hidden" name="tid" id="tid" value="{{tid}}"/>
+    </li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+    <div id="result_div">
+    	
+    </div>
+    
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

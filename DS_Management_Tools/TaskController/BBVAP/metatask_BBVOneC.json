@@ -1,0 +1,89 @@
+{
+    "building":
+    {
+        "definition":
+        {
+            "Battery": "battery"
+        }
+        
+    },
+    
+    "classes":
+    {
+        "taskGenerator": "TaskController.BaseClass.TaskGenerators.SimpleVariationTG",
+        "reporter": "TaskController.BBVAP.ReporterBBVAPS.ReporterBBVOneC"
+    },
+    
+	"building":
+	{
+		"definition":
+		{
+			"Battery": "battery"
+		}
+		
+	},
+	
+    "taskGenerator":
+    {
+        "taskGenerateName" : "Task2",
+        "arguments":
+        {
+            "constant":
+            {
+                "meta_function": "SimpleDymolaSimulationTask.py",
+
+                "dependency" : ["EDRIS_wrapper.egg", "BaseTask.py"],
+
+                                
+                "buildingInfo": 
+                {
+                	"battery": 
+                	{
+                            "child": {}
+                        }
+                },
+
+                "parameterOfFunction":
+                {                 
+                    "testArguments":
+                    {
+                        "modelName" : "EdrisLibComponents.SystemBases.SystemsBases.BasesSPS.TB_Battery_OneCDischarge",
+
+                        "simulationSettings":
+                        {
+                            "Algorithm" : "8",
+                            "Tolerance" : "0.01",
+                            "Increment" : "0",
+                            "nInterval" : "500",
+                            "StopTime" : "36000"
+                        },
+                        "parameters":
+                        {
+                        },
+                        "results":
+                        [
+                            {"signalName": "summary.batteryCurrent"},
+                            {"signalName": "summary.batteryCurrentChargeLimit"},
+                            {"signalName": "summary.batteryCurrentDischargeLimit"},
+                            {"signalName": "summary.batteryVoltage"},
+                            {"signalName": "summary.batteryVoltageChargeLimit"},
+                            {"signalName": "summary.batteryCellCoreTemperature"},
+                            {"signalName": "summary.batteryStartCoolingTemperature"},
+                            {"signalName": "summary.batteryStopCoolingTemperature"},
+                            {"signalName": "summary.batteryPower"},
+                            {"signalName": "summary.batteryDesiredPower"},
+                            {"signalName": "summary.batteryMaxDischargePower"},
+                            {"signalName": "summary.SOC"},
+                            {"signalName": "summary.deratingStatus"},
+                            {"signalName": "summary.energyBatteryWh"},
+                            {"signalName": "summary.voltageIdle"},
+                            {"signalName": "summary.efficiencyEnergy"},
+                            {"signalName": "summary.resistanceInnerCell"},
+                            {"signalName": "summary.additionalOutput"}
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

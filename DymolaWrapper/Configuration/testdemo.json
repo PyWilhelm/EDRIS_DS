@@ -1,0 +1,130 @@
+{
+    "librariesRequired" :
+    [
+        {"library" : "EDRISLibraryInternal"}
+    ],
+    "tests":
+    [
+        {
+            "testName" : "DCDC Converter Example",
+            "modelName" : "EDRISLibraryInternal.Components.DCDCConverters.Examples.DCDCTestBench",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "10"
+            },
+            "results" :
+            [
+                {"signalName": "dCDCConverter._signalBus_DCDCConverter.general.currentLow"},
+                {"signalName": "dCDCConverter._signalBus_DCDCConverter.general.currentHigh"}
+            ]
+        },
+        {
+            "testName" : "EDrive Converter Example",
+            "modelName" : "EDRISLibraryInternal.Components.ElectricDrives.Examples.TesteDriveMachine",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "30"
+            },
+            "results" :
+            [
+                {"signalName": "electricDriveTrain.bus.General.eDriveTorque"}
+            ]
+        },
+        {
+            "testName" : "EDrive Converter Example",
+            "modelName" : "EDRISLibraryInternal.Components.ElectricDrives.Examples.TesteDriveMachine",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "30"
+            },
+            "results" :
+            [
+                {"signalName": "electricDriveTrain.bus.General.eDriveTorque"}
+            ]
+        },
+
+        {
+            "testName" : "Electric Machine Example Fluid Port",
+            "modelName" : "EDRISLibraryInternal.Components.ElectricMachines.Examples.TB_eMachine_Fluidport",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "30"
+            },
+            "results" :
+            [
+                {"signalName": "e_Machine.electricMachineBus.General.emTorque"}
+            ]
+        },
+        {
+            "testName" : "Inverter Example",
+            "modelName" : "EDRISLibraryInternal.Components.Inverters.Examples.TB_Inverter",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.1",
+                "StopTime" : "10"
+            },
+            "results" :
+            [
+                {"signalName": "inverter._signalBus_Inverter.generalBus.inverterACPower"}
+            ]
+        },
+        {
+            "testName" : "Inverter Example Flow Port",
+            "modelName" : "EDRISLibraryInternal.Components.Inverters.Examples.TB_Inverter_FlowPort",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [
+                {"signalName": "inverter._signalBus_Inverter.general.powerAC"}
+            ]
+        },
+        {
+            "testName" : "Inverter Example Flow Port Test",
+            "modelName" : "EDRISLibraryInternal.Components.Inverters.Examples.TB_Inverter_FlowPort_Test",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "Increment" : "0.5",
+                "StopTime" : "100"
+            },
+            "results" :
+            [
+                {"signalName": "inverter._signalBus_Inverter.generalBus.inverterACPower"}
+            ]
+        },
+        {
+            "testName" : "Standard Test SPS Battery as an Example",
+            "modelName" : "EDRISLibraryInternal.Systems.SPS.baseModel.TB_Battery_SPS_base",
+            "simulationSettings":
+            {
+                "Algorithm" : "8",
+                "StopTime" : "150"
+            },
+            "parameters" :
+            {
+                "setRci" : "0.5",
+                "terminateByDerating": "0"
+            },
+            "results" :
+            [
+                {"signalName": "signalBus_battery.generalBus.Power"},
+                {"signalName": "signalBus_battery.generalBus.SOC"}
+            ]
+        }
+
+
+    ]
+}

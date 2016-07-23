@@ -1,0 +1,20 @@
+{ 
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "building schema",
+    "type": "object",
+    "properties":
+    {
+        "definition": 
+        {
+            "type": "object",
+            "patternProperties":
+            {
+                "^[A-Za-z0-9\\_]*$":
+                {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "required": ["definition"]
+}

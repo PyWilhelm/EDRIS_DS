@@ -1,0 +1,28 @@
+{
+    "serverConf":
+    {
+        "host" : "localhost",
+        "port" : 800, 
+        "keyfile": "certificates\\host.key",
+        "certfile":   "certificates\\host.crt",
+        "https": false
+    },
+    "scheduleConf":
+    {
+        "workerTimeout" : 20,
+        "taskTimeout" : 120,
+        "maxWaitingTask" : 50,
+        "maxWorker" : 20,
+        "retryTime" : 1,
+        "dependPath" : "dependencies3"
+    },
+    "databaseConf":
+    {
+        "dbmsHost" : "mongodb://localhost:27017/"
+    },
+    "securityConf":
+    {
+        "username" : "EDRIS",
+        "password" : "EDRIS"
+    }
+}
